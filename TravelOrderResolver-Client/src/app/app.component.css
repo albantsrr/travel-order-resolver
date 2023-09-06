@@ -4,3 +4,8 @@ nb-layout-column {
 ::ng-deep .nb-theme-default nb-chat-message.reply nb-chat-message-text .text {
     background: #d0d0d0!important;
 }
+
+#title-app {
+    font-weight: bold;
+    text-shadow: 5px 3px 15px gray;
+}
