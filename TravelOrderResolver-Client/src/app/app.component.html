@@ -1,0 +1,17 @@
+<nb-layout>
+  <nb-layout-header fixed>Travel Order Resolver</nb-layout-header>
+  
+  <nb-layout-column>
+    <nb-chat title="Conversational Travel Order" size="large" status="info">
+      <nb-chat-message *ngFor="let msg of messages"
+                        [message]="msg.text"
+                        [reply]="msg.reply"
+                        [sender]="msg.user.name"
+                        [date]="msg.date"
+                        [avatar]="msg.user.avatar">
+      </nb-chat-message>
+      <nb-chat-form (send)="sendMessage($event)" [dropFiles]="true">
+      </nb-chat-form>
+    </nb-chat>
+  </nb-layout-column>
+</nb-layout>
