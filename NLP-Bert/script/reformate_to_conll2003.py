@@ -1,12 +1,11 @@
-import torch
-from transformers import BertTokenizer, BertForSequenceClassification, AdamW
-from torch.utils.data import DataLoader, TensorDataset
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+import spacy
+import json
+import os
 
-# Chargement du jeu de données
-dataset = [
-   {"sentence": "Paris est la capitale de la France.", "label": 1},
+nlp = spacy.load("fr_core_news_sm")
+
+data = [
+        {"sentence": "Paris est la capitale de la France.", "label": 1},
     {"sentence": "Les montagnes sont belles en Suisse.", "label": 1},
     {"sentence": "Le chien court dans le jardin.", "label": 0},
     {"sentence": "New York est une grande ville américaine.", "label": 1},
@@ -66,58 +65,74 @@ dataset = [
     {"sentence": "Les rivières serpentent à travers le paysage.", "label": 0},
     {"sentence": "Le silence règne dans la bibliothèque.", "label": 0},
     {"sentence": "Les étoiles filantes illuminent la nuit.", "label": 0},
-    {"sentence": "Le cinéma offre une évasion du quotidien.", "label": 0}
+    {"sentence": "Le cinéma offre une évasion du quotidien.", "label": 0},
+    {"sentence": "Londres est la capitale de l'Angleterre.", "label": 1},
+    {"sentence": "Les plages de Rio de Janeiro sont célèbres dans le monde entier.", "label": 1},
+    {"sentence": "Tokyo est une ville très animée.", "label": 1},
+    {"sentence": "Les montagnes de Vancouver offrent de superbes vues.", "label": 1},
+    {"sentence": "Istanbul est située à cheval entre l'Europe et l'Asie.", "label": 1},
+    {"sentence": "Les rues de Marrakech sont remplies de couleurs et d'arômes.", "label": 1},
+    {"sentence": "Sydney est connue pour son opéra emblématique.", "label": 1},
+    {"sentence": "Les plages de Miami attirent de nombreux touristes.", "label": 1},
+    {"sentence": "Lima est la capitale du Pérou.", "label": 1},
+    {"sentence": "Athènes est une ville chargée d'histoire.", "label": 1},
+    {"sentence": "Les étoiles brillent dans le ciel nocturne.", "label": 0},
+    {"sentence": "La cuisine italienne est réputée pour ses pâtes.", "label": 0},
+    {"sentence": "Les oiseaux chantent tôt le matin.", "label": 0},
+    {"sentence": "Le cinéma offre une évasion du quotidien.", "label": 0},
+    {"sentence": "Les forêts sont essentielles pour l'écosystème.", "label": 0},
+    {"sentence": "La danse est une forme d'expression artistique.", "label": 0},
+    {"sentence": "La musique classique apaise l'âme.", "label": 0},
+    {"sentence": "Le silence règne dans la bibliothèque.", "label": 0},
+    {"sentence": "Les écoles préparent les enfants pour l'avenir.", "label": 0},
+    {"sentence": "Les rivières serpentent à travers le paysage.", "label": 0},
+    {"sentence": "Barcelone est célèbre pour son architecture unique.", "label": 1},
+    {"sentence": "Les ruelles de Florence regorgent d'art.", "label": 1},
+    {"sentence": "Les montagnes de Denver sont populaires pour le ski.", "label": 1},
+    {"sentence": "Los Angeles est connue pour l'industrie du cinéma.", "label": 1},
+    {"sentence": "Les plages de Cancún sont idéales pour la détente.", "label": 1},
+    {"sentence": "Venise est surnommée la 'Cité des canaux'.", "label": 1},
+    {"sentence": "Las Vegas est célèbre pour ses casinos.", "label": 1},
+    {"sentence": "La Havane est la capitale de Cuba.", "label": 1},
+    {"sentence": "Édimbourg est riche en histoire.", "label": 1},
+    {"sentence": "Les rues de Prague sont pittoresques.", "label": 1},
+    {"sentence": "Les étoiles filantes illuminent la nuit.", "label": 0},
+    {"sentence": "La mer est calme au coucher du soleil.", "label": 0},
+    {"sentence": "La montagne offre des possibilités de randonnée.", "label": 0},
+    {"sentence": "La forêt abrite de nombreuses espèces animales.", "label": 0},
+    {"sentence": "La musique jazz a une grande influence.", "label": 0},
+    {"sentence": "Les fleurs dans le jardin sont magnifiques.", "label": 0},
+    {"sentence": "Le café est une boisson appréciée le matin.", "label": 0},
+    {"sentence": "Le théâtre est une forme d'art captivante.", "label": 0},
+    {"sentence": "La poésie touche les cœurs des lecteurs.", "label": 0},
+    {"sentence": "La cuisine chinoise est variée et délicieuse.", "label": 0},
+    {"sentence": "Les pyreenees est une grande chaine de montagne.", "label": 1}
 ]
 
-# Séparation des phrases et des étiquettes
-sentences = [example["sentence"] for example in dataset]
-labels = [example["label"] for example in dataset]
+formatted_data = []
 
-# Chargement du tokenizer BERT
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+for example in data:
+    sentence = example["sentence"]
+    doc = nlp(sentence)
+    
+    tokens = [token.text for token in doc]
+    labels = []
+    for token in doc:
+        if token.ent_type_ == "LOC":  # Vous pouvez adapter cette condition à vos besoins
+            labels.append("B-LOC")
+        else:
+            labels.append("O")
+    
+    example_data = {"tokens": tokens, "labels": labels}
+    formatted_data.append(example_data)
 
-# Encodage des phrases
-encoded_inputs = tokenizer(sentences, padding=True, truncation=True, return_tensors="pt", max_length=128)
+# Créez un répertoire de sortie s'il n'existe pas
+output_dir = "datasets_ner"
+os.makedirs(output_dir, exist_ok=True)
 
-# Division des données en ensembles d'entraînement, de validation et de test
-train_inputs, test_inputs, train_labels, test_labels = train_test_split(encoded_inputs["input_ids"], labels, test_size=0.15, random_state=42)
-train_masks = torch.tensor(encoded_inputs["attention_mask"][:len(train_inputs)])
-test_masks = torch.tensor(encoded_inputs["attention_mask"][len(train_inputs):])
+output_filename = os.path.join(output_dir, "dataset_ner_train.json")
 
-# Création de DataLoader pour l'entraînement
-train_dataset = TensorDataset(train_inputs, train_masks, torch.tensor(train_labels))
-train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+with open(output_filename, "w", encoding="utf-8") as json_file:
+    json.dump(formatted_data, json_file, ensure_ascii=False, indent=4)
 
-# Chargement du modèle BERT pré-entraîné pour la classification binaire
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=2)
-
-# Définition de l'optimiseur et de la fonction de perte
-optimizer = AdamW(model.parameters(), lr=2e-5)
-loss_fn = torch.nn.CrossEntropyLoss()
-
-# Entraînement du modèle
-model.train()
-for epoch in range(10):
-    for batch in train_dataloader:
-        optimizer.zero_grad()
-        inputs, masks, labels = batch
-        outputs = model(input_ids=inputs, attention_mask=masks, labels=labels)
-        loss = outputs.loss
-        loss.backward()
-        optimizer.step()
-
-# Évaluation du modèle
-model.eval()
-with torch.no_grad():
-    test_outputs = model(input_ids=test_inputs, attention_mask=test_masks)
-    predicted_labels = torch.argmax(test_outputs.logits, dim=1).tolist()
-
-accuracy = accuracy_score(test_labels, predicted_labels)
-report = classification_report(test_labels, predicted_labels, target_names=["Pas de villes", "Villes"])
-
-print(f"Accuracy: {accuracy}")
-print(report)
-
-model.save_pretrained("./")
-
-# Vous pouvez maintenant utiliser votre modèle fine-tuné pour prédire la présence de noms de villes dans de nouvelles phrases.
+print(f"Les données ont été exportées au format JSON dans {output_filename}.")

@@ -8,6 +8,7 @@ import { NbChatModule } from '@nebular/theme';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FormsModule } from '@angular/forms';
     NbEvaIconsModule,
     NbPopoverModule,
     NbToastrModule.forRoot(),
+    HttpClientModule
   ],
   providers: [NbChatCustomMessageService],
   bootstrap: [AppComponent]
