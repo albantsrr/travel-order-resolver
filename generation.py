@@ -33,6 +33,8 @@ class cGenerateSentence:
         self.csv = 0
         self.csv_writer = None
 
+        self.verbose = 0
+
         # GENERATION 1
         self.pathGeneration_1 = r"res\generation_1.txt"
         self.listVerbe_gen1 = []
@@ -95,6 +97,8 @@ class cGenerateSentence:
                 self.sentenceNum_3(number)
                 return
 
+    def setVerbose(self,verbose):
+        self.verbose = verbose
 #   GENERATION 1
     def readGeneration_1(self):
         with open(self.pathGeneration_1, 'r', encoding='utf-8') as file:
@@ -118,6 +122,12 @@ class cGenerateSentence:
                             continue
 
     def sentenceNum_1(self,number):
+        if(self.verbose):
+            print("GENERATION SENTENCE 1")
+        count = 1
+        total = number
+        step = int(total/100) 
+        start_time = time.time()
         for i in range(number):
             sentence = ""
             verbeIdx = random.randrange(len(self.listVerbe_gen1))
@@ -152,11 +162,30 @@ class cGenerateSentence:
                 self.list_csv_row.append(csv_row)
                 self.id_row += 1
 
+            count += 1
+            if(self.verbose != 1):
+                continue
+
+            if((count % step) == 0):
+                end_time = time.time()
+                elapsed_time = end_time - start_time
+
+                remaining_time = ((elapsed_time*100)/int(count / step)) - elapsed_time 
+                print("Gen 1 -- {}%".format(int(count / step)))
+                print("  ==> {}/{}".format(count,total))
+                print("  Temps restant : {}s".format(int(remaining_time)))
+                print("\n")
+
+        if(self.verbose):
+            print("100%")
+            print("  ==>{}".format(len(self.list_Sentence)))
+
         # print(self.list_csv_row)      
         # print(self.list_Sentence)
 
     def sentence_1(self):
-        print("GENERATION SENTENCE 1")
+        if(self.verbose ):
+            print("GENERATION SENTENCE 1")
         count = 1
         total = len(c_Stops.list_trainStationName) * len(c_Stops.list_trainStationName) * len(self.listVerbe_gen1)
         step = int(total/100) 
@@ -197,6 +226,8 @@ class cGenerateSentence:
                         self.id_row += 1
                 
                     count += 1
+                    if(self.verbose != 1):
+                        continue
                     if((count % step) == 0):
                         end_time = time.time()
                         elapsed_time = end_time - start_time
@@ -206,9 +237,10 @@ class cGenerateSentence:
                         print("  ==> {}/{}".format(count,total))
                         print("  Temps restant : {}s".format(int(remaining_time)))
                         print("\n")
-
-        print("100%")
-        print("  ==>{}".format(len(self.list_Sentence)))
+        
+        if(self.verbose):
+            print("100%")
+            print("  ==>{}".format(len(self.list_Sentence)))
    
 #   GENERATION 2
     def readGeneration_2(self):
@@ -247,6 +279,12 @@ class cGenerateSentence:
                             continue
 
     def sentenceNum_2(self,number):
+        if(self.verbose ):
+            print("GENERATION SENTENCE 2")
+        count = 1
+        total = number
+        step = int(total/100) 
+        start_time = time.time()
         for i in range(number):
             sentence = ""
             csv_row = []
@@ -286,11 +324,29 @@ class cGenerateSentence:
 
                 self.list_csv_row.append(csv_row)
                 self.id_row += 1
+
+            count += 1
+            if(self.verbose != 1):
+                continue
+            if((count % step) == 0):
+                end_time = time.time()
+                elapsed_time = end_time - start_time
+
+                remaining_time = ((elapsed_time*100)/int(count / step)) - elapsed_time 
+                print("Gen 2 -- {}%".format(int(count / step)))
+                print("  ==> {}/{}".format(count,total))
+                print("  Temps restant : {}s".format(int(remaining_time)))
+                print("\n")
+
+        if(self.verbose):
+            print("100%")
+            print("  ==>{}".format(len(self.list_Sentence)))
         
         # print(self.list_Sentence)
 
     def sentence_2(self):
-        print("GENERATION SENTENCE 2")
+        if(self.verbose ):
+            print("GENERATION SENTENCE 2")
         count = 1
         total = (len(c_Stops.list_trainStationName) * len(c_Stops.list_trainStationName) *len(self.listInterrogatif_gen2)
                   * len(self.listVerbe_gen2)* len(self.listTrajet_gen2))
@@ -335,8 +391,8 @@ class cGenerateSentence:
                                 self.id_row += 1
                         
                             count += 1
-                            if((count % 10000) == 0):
-                                print("coucou")
+                            if(self.verbose != 1):
+                                continue
                             if((count % step) == 0):
                                 end_time = time.time()
                                 elapsed_time = end_time - start_time
@@ -346,9 +402,9 @@ class cGenerateSentence:
                                 print("  ==> {}/{}".format(count,total))
                                 print("  Temps restant : {}s".format(int(remaining_time)))
                                 print("\n")
-
-        print("100%")
-        print("  ==>{}".format(len(self.list_Sentence)))
+        if(self.verbose):
+            print("100%")
+            print("  ==>{}".format(len(self.list_Sentence)))
 
 #   GENERATION 3
     def readGeneration_3(self):
@@ -387,6 +443,12 @@ class cGenerateSentence:
                             continue
 
     def sentenceNum_3(self,number):
+        if(self.verbose):
+            print("GENERATION SENTENCE 2")
+        count = 1
+        total = number
+        step = int(total/100) 
+        start_time = time.time()
         for i in range(number):
             sentence = ""
             departIdx = random.randrange(len(self.listDepart_gen3))
@@ -426,6 +488,23 @@ class cGenerateSentence:
 
                 self.list_csv_row.append(csv_row)
                 self.id_row += 1
+
+            count += 1
+            if(self.verbose != 1):
+                continue
+            if((count % step) == 0):
+                end_time = time.time()
+                elapsed_time = end_time - start_time
+
+                remaining_time = ((elapsed_time*100)/int(count / step)) - elapsed_time 
+                print("Gen 3 -- {}%".format(int(count / step)))
+                print("  ==> {}/{}".format(count,total))
+                print("  Temps restant : {}s".format(int(remaining_time)))
+                print("\n")
+
+        if(self.verbose):
+            print("100%")
+            print("  ==>{}".format(len(self.list_Sentence)))
         
         # print(self.list_Sentence)
 
@@ -447,14 +526,37 @@ class cGenerateSentence:
 
         with open(self.path_csv, 'a', newline='',encoding='utf-8') as csvfile:
             csv_writer = csv.writer(csvfile,delimiter=';')
+            if(self.verbose):
+                print("GENERATION CSV")
+            count = 1
+            total = len(self.list_csv_row)
+            step = int(total/100) 
+            start_time = time.time()
             for i in range(len(self.list_csv_row)):
                     row = self.list_csv_row[i]
                     csv_writer.writerow(row)
 
-def MONITOR(arg_csv,arg_name,arg_gen,arg_nb):
+                    count += 1
+                    if(self.verbose != 1):
+                        continue
+                    if((count % step) == 0):
+                        end_time = time.time()
+                        elapsed_time = end_time - start_time
+
+                        remaining_time = ((elapsed_time*100)/int(count / step)) - elapsed_time 
+                        print("CSV -- {}%".format(int(count / step)))
+                        print("  ==> {}/{}".format(count,total))
+                        print("  Temps restant : {}s".format(int(remaining_time)))
+                        print("\n")
+            if(self.verbose):
+                print("100%")
+                print("  ==>{}".format(total))
+
+def MONITOR(arg_csv,arg_name,arg_gen,arg_nb,arg_v):
     c_generateSentence = cGenerateSentence()
     c_generateSentence.setCSV(arg_csv)
     c_generateSentence.setCSV_Name(arg_name)
+    c_generateSentence.setVerbose(arg_v)
     c_generateSentence.readGeneration(arg_gen)
     c_generateSentence.generate(arg_nb,arg_gen)
     c_generateSentence.writeCSV()
@@ -465,6 +567,7 @@ def main():
     parser.add_argument('--name', type=str,help='csv name')
     parser.add_argument('--gen', type=int, help='0 : all | 1 : sentence_1 | 2 : sentence_2 | 3 : sentence_3')
     parser.add_argument('--nb', type=int, help='setence number')
+    parser.add_argument('--v', type=int, help='verbose : 0 | 1')
 
     args = parser.parse_args()
     
@@ -472,6 +575,7 @@ def main():
     arg_name = "sentence_generation"
     arg_gen = 0
     arg_nb = 100
+    arg_v = 0
 
     if args.csv:
         if(not(args.csv in [0,1])):
@@ -491,7 +595,13 @@ def main():
             return
         arg_nb = args.nb
 
-    MONITOR(arg_csv,arg_name,arg_gen,arg_nb)
+    if args.v:
+        if(not(args.v in [0,1])):
+            print(f"<ERROR> --v : {args.v} isn't valid")
+            return
+        arg_v = args.v
+
+    MONITOR(arg_csv,arg_name,arg_gen,arg_nb,arg_v)
 
 
 if __name__ == "__main__":

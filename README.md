@@ -26,6 +26,10 @@ python generation.py [-h] [--csv CSV] [--name NAME] [--gen GEN] [--nb NB]
 
 - `--nb NB` : Définissez le nombre de phrases à générer.
 
+- `--v V` : Choisissez le niveau de verbosité
+  - 0 : Aucune sortie verbosité.
+  - 1 : sortie verbosité.
+
 ## Exemple d'Utilisation
 
 Pour générer un fichier CSV avec 300 phrases, vous pouvez utiliser la commande suivante (dans un environnement Windows) :
