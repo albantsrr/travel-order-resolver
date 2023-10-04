@@ -36,17 +36,17 @@ class cGenerateSentence:
         self.verbose = 0
 
         # GENERATION 1
-        self.pathGeneration_1 = r"res\generation_1.txt"
+        self.pathGeneration_1 = r"./res/generation_1.txt"
         self.listVerbe_gen1 = []
 
         # GENERATION 2
-        self.pathGeneration_2 = r"res\generation_2.txt"
+        self.pathGeneration_2 = r"./res/generation_2.txt"
         self.listInterrogatif_gen2 = []
         self.listVerbe_gen2 = []
         self.listTrajet_gen2 = []
 
         # GENERATION 3
-        self.pathGeneration_3 = r"res\generation_3.txt"
+        self.pathGeneration_3 = r"./res/generation_3.txt"
         self.listDepart_gen3 = []
         self.listInterrogatif_gen3 = []
         self.listArriver_gen3 = []

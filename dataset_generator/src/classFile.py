@@ -18,7 +18,7 @@
 
 class cStops:
     def __init__(self):
-        self.path = r"res\stops.txt"
+        self.path = r"./res/stops.txt"
         self.data = []
 
         self.list_trainStationName = []
