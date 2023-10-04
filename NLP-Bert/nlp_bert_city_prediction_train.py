@@ -191,7 +191,7 @@ loss_fn = torch.nn.CrossEntropyLoss()
 
 # Entraînement du modèle
 model.train()
-for epoch in range(10):
+for epoch in range(12):
     for batch in train_dataloader:
         optimizer.zero_grad()
         inputs, masks, labels = batch
