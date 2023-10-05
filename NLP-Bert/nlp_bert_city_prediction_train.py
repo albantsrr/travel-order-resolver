@@ -20,7 +20,7 @@ tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 encoded_inputs = tokenizer(sentences, padding=True, truncation=True, return_tensors="pt", max_length=128)
 
 # Division des données en ensembles d'entraînement, de validation et de test
-train_inputs, test_inputs, train_labels, test_labels = train_test_split(encoded_inputs["input_ids"], labels, test_size=0.15, random_state=42)
+train_inputs, test_inputs, train_labels, test_labels = train_test_split(encoded_inputs["input_ids"], labels, test_size=0.20, random_state=42)
 train_masks = encoded_inputs["attention_mask"][:len(train_inputs)].clone().detach()
 test_masks = encoded_inputs["attention_mask"][len(train_inputs):].clone().detach()
 
@@ -38,7 +38,7 @@ loss_fn = torch.nn.CrossEntropyLoss()
 
 # Entraînement du modèle
 model.train()
-for epoch in range(8):
+for epoch in range(4):
     for batch in train_dataloader:
         optimizer.zero_grad()
         inputs, masks, labels = batch
