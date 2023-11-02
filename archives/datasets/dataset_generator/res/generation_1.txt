@@ -1,0 +1,39 @@
+[Génération 1]
+
+[construction]
+Verbe -- "de" -- villeOrigine -- "à" -- villeArrive
+
+[Exemple]
+J'aimerais me rendre de Toulouse à Paris.
+
+[Verbe]
+Je préférerais me rendre
+J'aspire à voyager
+J'envisage de faire le trajet
+Je projette de me déplacer
+Je rêve de rejoindre
+Je pense à voyager
+Je compte partir
+J'anticipe le déplacement
+Je suis enthousiaste à l'idée de me rendre
+Je programme un voyage
+Je souhaiterais me rendre
+J'ai l'intention de voyager
+Je songe à faire le trajet
+J'envisagerais de me déplacer
+Je planifie de rejoindre
+J'envie de voyager
+Je désire partir
+J'ambitionne de faire le trajet
+Je pense sérieusement à me déplacer
+J'envisage sérieusement de rejoindre
+Je voudrais me rendre
+J'ai l'envie de voyager
+Je contemple de faire le trajet
+Je médite à me déplacer
+Je pense à me rendre
+Je prévois de voyager
+Je suis enthousiasme à partir
+Je souhaiterais effectuer le trajet
+J'ai l'objectif de rejoindre
+J'ai le dessein de voyager

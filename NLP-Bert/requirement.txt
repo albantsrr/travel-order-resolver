@@ -1,8 +1,0 @@
-torch
-transformers
-sklearn
-scikit-learn
-protobuf
-spacy
-transformers[torch]
-accelerate
