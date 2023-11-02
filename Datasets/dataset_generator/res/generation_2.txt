@@ -1,0 +1,34 @@
+[Generation 2]
+
+[construction]
+Mot intérogatif -- Verbe -- Trajet -- villeOrigine -- villeArrive ?
+
+[Exemple]
+comment faire le trajet Toulouse Paris ?
+
+[Mot interrogatif]
+De quelle manière
+De quelle façon
+Comment
+Comment procéder pour
+
+[Verbe]
+faire
+effectuer
+réaliser
+parcourir
+accomplir
+exécuter
+organiser
+
+[Trajet]
+le trajet
+le déplacement
+le voyage
+la route
+la course
+le parcours
+l'itinéraire
+le chemin
+la distance
+la traversée

@@ -1,0 +1,49 @@
+[Génération 3 - Valide]
+
+[construction]
+Intention Depart -- villeOrigine -- Mot interrogatif -- Intention Arriver -- villeArrive
+Mot interrogatif -- Intention Arriver -- villeArrive -- Intention Depart -- villeOrigine 
+Mot interrogatif -- Intention Depart -- villeArrive -- Intention  Arriver -- villeOrigine 
+
+[exemple]
+En partant de Toulouse comment arriver à Paris ?
+Comment arriver à Paris en partant de Toulouse  ?
+comment en partant de Toulouse arriver à Paris ?
+
+[Intention Depart]
+en partant de
+en quittant
+en partant depuis
+en commençant de
+en prenant comme point de départ
+à partir de
+en commençant depuis
+depuis
+en débutant depuis
+en prenant
+en partant depuis le lieu de départ de
+en débutant de
+END
+
+[Mot interrogatif]
+comment faire pour
+par quel moyen
+par quels moyens
+par quel procédé
+par quel chemin
+par quelles méthodes
+par quels processus
+END
+
+[Intention Arriver]
+parvenir à
+atteindre
+se rendre à
+joindre
+parvenir jusqu'à
+aboutir à
+se rendre jusqu'à
+parvenir à destination de
+déboucher à
+se diriger vers
+END

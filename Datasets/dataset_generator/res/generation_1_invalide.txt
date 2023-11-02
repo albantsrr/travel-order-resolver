@@ -1,0 +1,92 @@
+[Génération 1 - Invalide]
+
+[construction]
+Verbe -- intention non valide --*
+
+[Exemple]
+j'envisage de pratiquer la photographie
+
+[Non Classer]
+de créer
+de consacrer plus de temps
+de poursuivre
+
+[Verbe]
+j'envisage de
+je projette de
+je pense
+je compte
+j'anticipe de
+je programme de
+je souhaite
+j'ai l'intention de
+je songe
+je prévois de
+nous envisageons de
+nous projetons de
+nous pensons
+nous comptons
+nous anticipons de
+nous programmons de
+nous souhaitons
+nous avons l'intention de
+nous songeons
+nous prévoyons de
+END
+
+[Intention Visiter]
+déménager à
+visiter
+partir en vacance à
+END
+
+[Intention Activite]
+commencer
+pratiquer
+débuter
+END
+
+[Activite]
+le football
+la natation
+le basketball
+la gymnastique
+le tennis
+la course à pied
+le baseball
+la boxe
+le cyclisme
+la danse
+le golf
+la lutte
+le rugby
+la patinage artistique
+le volley-ball
+la plongée sous-marine
+le handball
+la voile
+le ski alpin
+la planche à voile
+le hockey sur glace
+la randonnée
+le karaté
+la musculation
+le saut à l'élastique
+la course de motocross
+le saut en hauteur
+la pétanque
+le tir à l'arc
+la lecture
+la peinture
+le jardinage
+la cuisine
+le tricot
+la méditation
+le bricolage
+la musique
+la photographie
+le dessin
+le yoga
+la couture
+la calligraphie
+END

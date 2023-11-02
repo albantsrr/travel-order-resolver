@@ -1,0 +1,122 @@
+[Generation 2 - Invalide]
+
+[construction]
+Mot intérogatif -- Optionnel -- Verbe -- Intention Invalide -- * ?
+
+[Exemple]
+-   de quelle façon pourrais-je réaliser un déplacement "en" bus ?
+    comment faire un voyage "à" Paris ?
+
+-   de quelle manière puis-je effectuer un concert ?
+
+[Mot interrogatif]
+de quelle manière
+de quelle façon
+comment
+END
+
+[Optionnel]
+pourrais-je
+pourions-nous
+puis-je
+pouvons-nous
+END
+
+[Verbe]
+faire
+effectuer
+réaliser
+END
+
+[Intention Voyage]
+un voyage
+un déplacement
+un itinéraire
+END
+
+[Transport]
+avion
+train
+voiture
+bateau
+navire de croisière
+bus
+moto
+métro
+hélicoptère
+tramway
+vélo
+camion
+camping car
+END
+
+[Activite]
+un choix
+un apéritif
+un bain de soleil
+un barbecue
+un bivouac
+du bricolage
+un buffet
+un câlin
+un campement
+un chant
+un concert
+un cours
+un dîner
+un débat
+un déménagement
+un dessert
+un discours
+un entraînement
+un exposé
+un festin
+un footing
+un goûter
+un jogging
+un loisir
+un mariage
+un pique-nique
+un quiz
+un spectacle
+un stage
+un tournoi
+un yoga
+un apéro
+un arrangement
+un échauffement
+un exercice
+un exploit
+un festival
+un fromage
+un gâteau
+un graffiti
+un labyrinthe
+un livre
+un maquillage
+un mélange
+un ordinateur
+un pendentif
+un plan
+un quizz
+un repas
+un rendez-vous
+un saut
+un sketch
+un sondage
+un souper
+un soutien
+un stage
+un tatouage
+un témoignage
+un abonnement
+un accueil
+un achat
+un apprentissage
+un arrangement
+un assaut
+un baiser
+un bijou
+un blouson
+un bouquet
+END
