@@ -131,7 +131,7 @@ class cTimeTables:
 
 class cListDesGares:
     def __init__(self):
-        self.path =r"res\liste-des-gares.csv"
+        self.path =r"res/liste-des-gares.csv"
 
         self.data = []
 
@@ -331,7 +331,7 @@ class cGeneration_1_Valid:
         #
         self.propotion_city = 100
 
-    def _add_csv_row(self, sentence):
+    def _add_csv_row(self, sentence, location_start, location_end):
         csv_row = []
         #ID
         csv_row.append("")
@@ -340,9 +340,9 @@ class cGeneration_1_Valid:
         #VALID
         csv_row.append(1)
         #ORIGIN
-        csv_row.append("")
+        csv_row.append(location_start)
         #ARRIVAL
-        csv_row.append("")
+        csv_row.append(location_end)
         #STEP_OVER
         csv_row.append("")
         #TYPE
@@ -444,7 +444,7 @@ class cGeneration_1_Valid:
                 sentence = verbe + " " + intention + " " + mot_end + " " + location_end + " " +  mot_start + " " + location_start
 
             self.list_sentence.append(sentence)
-            self._add_csv_row(sentence)
+            self._add_csv_row(sentence, location_start, location_end)
 
     def set_List_Name_City(self, arg_list_name_city):
         self.list_name_city = arg_list_name_city
@@ -653,7 +653,7 @@ class cGeneration_2_Valid:
         #
         self.propotion_city = 100
 
-    def _add_csv_row(self, sentence):
+    def _add_csv_row(self, sentence, location_start, location_end):
         csv_row = []
         #ID
         csv_row.append("")
@@ -662,9 +662,9 @@ class cGeneration_2_Valid:
         #VALID
         csv_row.append(1)
         #ORIGIN
-        csv_row.append("")
+        csv_row.append(location_start)
         #ARRIVAL
-        csv_row.append("")
+        csv_row.append(location_end)
         #STEP_OVER
         csv_row.append("")
         #TYPE
@@ -765,10 +765,10 @@ class cGeneration_2_Valid:
             if(i <= (int(number/2))):
                 sentence = mot_iterrogatif + optionnel + " " + verbe + " " + intention + " de " + location_start + " à " + location_end  
             else:
-                sentence = mot_iterrogatif + optionnel + " " + verbe + " " + intention + " allant de " + location_start + " depuis " + location_end
+                sentence = mot_iterrogatif + optionnel + " " + verbe + " " + intention + " allant de " + location_end + " depuis " + location_start
 
             self.list_sentence.append(sentence)
-            self._add_csv_row(sentence)
+            self._add_csv_row(sentence, location_start, location_end)
 
     def set_List_Name_City(self, arg_list_name_city):
         self.list_name_city = arg_list_name_city
@@ -794,7 +794,7 @@ class cGeneration_3_Valid:
         #
         self.propotion_city = 100
 
-    def _add_csv_row(self, sentence):
+    def _add_csv_row(self, sentence, location_start, location_end):
         csv_row = []
         #ID
         csv_row.append("")
@@ -803,9 +803,9 @@ class cGeneration_3_Valid:
         #VALID
         csv_row.append(1)
         #ORIGIN
-        csv_row.append("")
+        csv_row.append(location_start)
         #ARRIVAL
-        csv_row.append("")
+        csv_row.append(location_end)
         #STEP_OVER
         csv_row.append("")
         #TYPE
@@ -903,7 +903,7 @@ class cGeneration_3_Valid:
                     sentence = mot_iterrogatif + " " + intention_depart + " " + location_start  + " " + intention_arriver + " " + location_end
             
             self.list_sentence.append(sentence)
-            self._add_csv_row(sentence)
+            self._add_csv_row(sentence, location_start, location_end)
 
             
     def set_List_Name_City(self, arg_list_name_city):
