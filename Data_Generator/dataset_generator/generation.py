@@ -27,4 +27,4 @@ import argparse
 
 if __name__ == "__main__":
     generation = cGenerateSentence()
-    generation.generate_by_number(5000)
+    generation.generate_by_number(2000)

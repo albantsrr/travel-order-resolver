@@ -229,5 +229,5 @@ class cScrapper:
 
 if __name__ == "__main__":
     c_scrapper = cScrapper()
-    c_scrapper.start(10000)
+    c_scrapper.start(3000)
     c_scrapper.write_csv()
