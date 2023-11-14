@@ -1,4 +1,5 @@
 import spacy
+import random
 
 nlp = spacy.load("fr_core_news_sm")
 
