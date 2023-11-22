@@ -7,13 +7,17 @@ from spacy.tokens import DocBin
 # Lire le fichier CSV
 df = pd.read_csv('data.csv', delimiter=';')
 
-
 # On s'assure que toutes les données sont des strings
 df['SENTENCE'] = df['SENTENCE'].astype(str)
+df['SENTENCE'] = df['SENTENCE'].str.lower()
 df['ORIGIN'] = df['ORIGIN'].astype(str)
+df['ORIGIN'] = df['ORIGIN'].str.lower()
 df['ARRIVAL'] = df['ARRIVAL'].astype(str)
+df['ARRIVAL'] = df['ARRIVAL'].str.lower()
 
-# Préprocessing des 
+df = df[df['ARRIVAL'] != df['ORIGIN']]
+
+# Préprocessing des données
 def extract_entities(sentence, origin, arrival):
     entities = []
     if origin in sentence:
@@ -28,37 +32,29 @@ def extract_entities(sentence, origin, arrival):
 
 datas = [extract_entities(row['SENTENCE'], row['ORIGIN'], row['ARRIVAL']) for index, row in df.iterrows()]
 
+# random.shuffle(datas)
 
-random.shuffle(datas)
-
+# Séparation en ensembles de données
 train_data, test_data = train_test_split(datas, test_size=0.2)
 train_data, val_data = train_test_split(train_data, test_size=0.25)
 
 
-# Préprocessing des données => voir la doc. 
-nlp = spacy.blank("fr")
-training_data = train_data
-db = DocBin()
-for text, annotations in training_data:
-    doc = nlp(text)
-    ents = []
-    for start, end, label in annotations['entities']:
-        span = doc.char_span(start, end, label=label)
-        ents.append(span)
-    doc.ents = ents
-    db.add(doc)
-db.to_disk("./data/train.spacy")
+# Fonction pour transformer les données en format spaCy
+def create_spacy_data(data, file_name):
+    nlp = spacy.blank("fr")
+    db = DocBin()
+    for text, annotations in data:
+        doc = nlp(text)
+        ents = []
+        for start, end, label in annotations['entities']:
+            span = doc.char_span(start, end, label=label)
+            if span is not None:
+                ents.append(span)
+        doc.ents = ents
+        db.add(doc)
+    db.to_disk(file_name)
 
-
-testing_data = test_data
-db = DocBin()
-for text, annotations in training_data:
-    doc = nlp(text)
-    ents = []
-    for start, end, label in annotations['entities']:
-        span = doc.char_span(start, end, label=label)
-        if span is not None:
-            ents.append(span)
-    doc.ents = ents
-    db.add(doc)
-db.to_disk("./data/test.spacy")
+# Création des fichiers spaCy pour l'entraînement, la validation et le test
+create_spacy_data(train_data, "./data/train.spacy")
+create_spacy_data(val_data, "./data/val.spacy") 
+create_spacy_data(test_data, "./data/test.spacy")
