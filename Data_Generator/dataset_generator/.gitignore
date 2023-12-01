@@ -1,0 +1,6 @@
+!timetables.csv
+!liste-des-gares.csv
+*.bin
+/__pycache__
+*.csv
+.venv

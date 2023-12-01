@@ -23,7 +23,7 @@ import os
 
 class cStops:
     def __init__(self):
-        self.path = r"res\stops.txt"
+        self.path = r"res/stops.txt"
         self.data = []
 
         self.list_trainStationName = []
@@ -78,7 +78,7 @@ class cStops:
 
 class cTimeTables:
     def __init__(self):
-        self.path = r"res\timetables.csv"
+        self.path = r"res/timetables.csv"
         self.data = []
 
         self.list_trainStationName = []

@@ -1,0 +1,10 @@
+Comment me rendre à Lyon si j'habite à Toulouse (10000 --> 0) (30000 --> 1)
+j'aimerais effectuer le trajet Paris Toulouse (10000 --> 0) (30000 --> 1) (50000 --> 0)
+je veux aller de paris depuis nice (10000 --> 0) (30000 --> 1)
+
+j'aimerais faire un trajet Paris Toulouse --> (30000 --> 0)
+j'aimerais faire le trajet Paris Toulouse --> (30000 --> 1) (50000 --> 0)
+
+trouve moi un train pour aller a paris (30000 --> 1)
+je suis a paris je veux aller a toulouse en train (30000 --> 0)
+en partant de paris comment  aller a toulouse en train (30000 --> 1)
