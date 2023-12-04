@@ -1,0 +1,78 @@
+[Génération Invalide - Depuis]
+
+[construction]
+"Depuis" -- * Temps * -- Context
+Context -- "depuis" -- * Temps * 
+
+[Exemple]
+Depuis mercredi je suis en vacance
+nous sommes détendus depuis 4 années
+
+[Temps Singulier]
+lundi
+mardi
+mercredi
+jeudi
+vendredi
+samedi
+dimanche
+hier
+END
+
+[Temps Pluriel]
+jours
+semaines
+mois
+ans
+années
+heures
+END
+
+[Context]
+je suis heureux
+je suis en colère
+je suis triste
+je suis excité
+je suis anxieux
+je suis déçu
+je suis apaisé
+je suis confus
+je suis amoureux
+je suis reconnaissant
+je suis jaloux
+je suis frustré
+je suis effrayé
+je suis étonné
+je suis ému
+je suis détendu
+je suis honteux
+je suis reconnaissant
+je suis surpris
+je suis dégoûté
+je suis malade
+je suis en congé
+je suis en vacance
+nous sommes heureux
+nous sommes en colère
+nous sommes tristes
+nous sommes excités
+nous sommes anxieux
+nous sommes déçus
+nous sommes apaisés
+nous sommes confus
+nous sommes amoureux
+nous sommes reconnaissants
+nous sommes jaloux
+nous sommes frustrés
+nous sommes effrayés
+nous sommes étonnés
+nous sommes émus
+nous sommes détendus
+nous sommes honteux
+nous sommes reconnaissants
+nous sommes surpris
+nous sommes dégoûtés
+nous sommes malades
+nous sommes en congés
+nous sommes en vacances
+END

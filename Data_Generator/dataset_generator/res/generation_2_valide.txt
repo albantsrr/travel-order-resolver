@@ -1,0 +1,40 @@
+[Generation 2 - Valide]
+
+[construction]
+Mot intérogatif -- Optionnel -- Verbe -- Intention Valide -- villeOrigine -- villeArrive ?
+
+[Exemple]
+comment faire le trajet Toulouse Paris ?
+
+[Mot interrogatif]
+de quelle manière
+de quelle façon
+comment
+END
+
+[Optionnel]
+pourrais-je
+pourions-nous
+puis-je
+pouvons-nous
+END
+
+[Verbe]
+faire
+effectuer
+réaliser
+accomplir
+END
+
+[Intention Valide]
+le trajet
+le déplacement
+le voyage
+la route
+la course
+le parcours
+l'itinéraire
+le chemin
+la distance
+la traversée
+END

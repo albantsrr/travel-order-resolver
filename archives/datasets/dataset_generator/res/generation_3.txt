@@ -1,0 +1,42 @@
+[Génération 3]
+
+[construction]
+Depart -- villeOrigine -- Mot interrogatif -- Arriver -- villeArrive
+
+[exemple]
+En partant de Toulouse comment arriver à Paris 
+
+[Depart]
+En partant de
+En quittant
+En partant depuis
+En commençant de
+En prenant comme point de départ
+À partir de
+En commençant depuis
+Depuis
+En débutant depuis
+En prenant
+En partant depuis le lieu de départ de
+En débutant de
+
+[Mot interrogatif]
+comment faire pour
+par quel moyen
+par quels moyens
+par quel procédé
+par quel chemin
+par quelles méthodes
+par quels processus
+
+[Arriver]
+parvenir à
+atteindre
+se rendre à
+joindre
+parvenir jusqu'à
+aboutir à
+se rendre jusqu'à
+parvenir à destination de
+déboucher à
+se diriger vers

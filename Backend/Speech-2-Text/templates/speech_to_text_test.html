@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Reconnaissance Vocale en Temps Réel</title>
+</head>
+<body>
+    <h1>Reconnaissance Vocale en Temps Réel</h1>
+    <button id="startButton">Commencer l'enregistrement</button>
+    <button id="stopButton">Stopper l'enregistrement</button>
+    <p id="status_infos"></p>
+    <textarea id="result" placeholder="Ecriver votre itinéraire"> </textarea>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script>
+    <script>
+        const socket = io.connect('http://localhost:5000'); 
+
+        const startButton = document.getElementById("startButton");
+        const stopButton = document.getElementById("stopButton");
+        const resultParagraph = document.getElementById("result");
+        const status_info = document.getElementById("status_infos");
+
+        stopButton.disabled = true;
+        startButton.disabled = false;
+
+        startButton.addEventListener("click", () => {
+            startButton.disabled = true;
+            stopButton.disabled = false;
+
+            socket.emit('start_recording');
+        });
+
+        stopButton.addEventListener("click", () => {
+            startButton.disabled = false;
+            stopButton.disabled = true;
+
+            socket.emit('stop_recording');
+        });
+
+        socket.on('status_recording', data => {
+            const status_infos_received = data.status;
+            status_info.textContent = status_infos_received;
+        }) 
+
+        socket.on('error_recording', data => {
+            const status_error_received = data.status;
+            status_info.textContent = status_error_received;
+            stopButton.disabled = true;
+            startButton.disabled = false;
+        })
+
+        socket.on('recognized_text', data => {
+            const recognizedText = data.text;
+            resultParagraph.textContent += ' ' + recognizedText;
+            startButton.disabled = false;
+            stopButton.disabled = true;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+[Génération 1 - Valide]
+
+[construction]
+Verbe -- intention valide -- mot start -- villeOrigine -- mot end -- villeArrive
+Verbe -- intention valide -- mot end -- villeOrigine -- mot start -- villeArrive
+
+[Exemple]
+j'envisage de voyager de Toulouse à Paris
+nous projetons de partir à Paris depuis Toulouse
+
+[Verbe]
+j'envisage de
+je projette de
+je pense
+je compte
+j'anticipe de
+je programme de
+je souhaite
+j'ai l'intention de
+je songe
+je prévois de
+nous envisageons de
+nous projetons de
+nous pensons
+nous comptons
+nous anticipons de
+nous programmons de
+nous souhaitons
+nous avons l'intention de
+nous songeons
+nous prévoyons de
+END
+
+[Intention Valide]
+faire le trajet
+voyager
+partir
+END
+
+[Mot Start]
+de
+depuis
+END
+
+[Mot End]
+à
+vers
+END

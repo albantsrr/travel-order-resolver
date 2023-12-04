@@ -1,0 +1,6 @@
+[timetables.csv]
+09/09/2023 N. Laurens : change "OCESN030164R0400418154	Ettendorf-Pl,-de-L'ecol - Gare de Mommenheim	15"
+						for "OCESN030164R0400418154	Ettendorf-Pl-de-L'ecol - Gare de Mommenheim	15" 
+14/10/2023 N. Laurens : change "Gare de Evreux - Normandie" for "Gare de Evreux -Normandie" 
+14/10/2023 N. Laurens : liste-des-gares.csv => https://ressources.data.sncf.com/explore/dataset/liste-des-gares/export/?location=10,48.91844,2.34695&basemap=jawg.transports
+14/10/2023 N. Laurens : delete "Gare de" from the station name to match the labelle column in liste-des-gares.csv to obtain the names of the communes
