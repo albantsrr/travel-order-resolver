@@ -1,0 +1,10202 @@
+[
+  [
+    "\"y a-t-il des passages intéressants entre varilhes et saint-denis?\"",
+    {
+      "entities": [
+        [
+          42,
+          50,
+          "DEPART"
+        ],
+        [
+          54,
+          65,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle serait l'option la plus sûre si je décidais de me rendre de mériel à losne?\"",
+    {
+      "entities": [
+        [
+          68,
+          74,
+          "DEPART"
+        ],
+        [
+          77,
+          82,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"vers saint-jean-de-maurienne depuis wacquemoulin, quelle route devrais-je privilégier pour un voyage agréable?\"",
+    {
+      "entities": [
+        [
+          37,
+          49,
+          "DEPART"
+        ],
+        [
+          6,
+          29,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me guider sur l'itinéraire de coudekerque-branche à garancières?\"",
+    {
+      "entities": [
+        [
+          39,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je transiter de langon à éloyes?\"",
+    {
+      "entities": [
+        [
+          30,
+          36,
+          "DEPART"
+        ],
+        [
+          39,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je me rendre de blanc-mesnil (le ) à alizay?\"",
+    {
+      "entities": [
+        [
+          30,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment voyage-t-on de montdidier à sevran habituellement?\"",
+    {
+      "entities": [
+        [
+          24,
+          34,
+          "DEPART"
+        ],
+        [
+          37,
+          43,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en vue d'atteindre bassens, comment devrais-je quitter thésée?\"",
+    {
+      "entities": [
+        [
+          56,
+          62,
+          "DEPART"
+        ],
+        [
+          20,
+          27,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la meilleure façon de voyager de tergnier à crain?\"",
+    {
+      "entities": [
+        [
+          45,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est sûr de voyager de peyrilles à montazels?\"",
+    {
+      "entities": [
+        [
+          36,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"suggère une voie alternative de marseille à neuville-sur-oise.\"",
+    {
+      "entities": [
+        [
+          33,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur la voie la plus directe de rungis à hirson.\"",
+    {
+      "entities": [
+        [
+          44,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un trajet confortable vers jâlons en partant de banassac, quel parcours recommandes-tu?\"",
+    {
+      "entities": [
+        [
+          54,
+          62,
+          "DEPART"
+        ],
+        [
+          33,
+          39,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi un itinéraire détaillé de pierrefitte-sur-seine à oudon.\"",
+    {
+      "entities": [
+        [
+          38,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          67,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne un aperçu des options de trajet entre saint-sever-de-saintonge et le meux.\"",
+    {
+      "entities": [
+        [
+          45,
+          69,
+          "DEPART"
+        ],
+        [
+          73,
+          80,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un voyage vers saint-ouen-l'aumone en provenance de ormoy-villers, quelles directions me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          58,
+          71,
+          "DEPART"
+        ],
+        [
+          21,
+          40,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne l'itinéraire optimal entre jarrie et bruz.\"",
+    {
+      "entities": [
+        [
+          37,
+          43,
+          "DEPART"
+        ],
+        [
+          47,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne un aperçu des options de trajet entre courthezon et beaucaire.\"",
+    {
+      "entities": [
+        [
+          45,
+          55,
+          "DEPART"
+        ],
+        [
+          59,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dessine l'itinéraire entre saint-laurent-de-brèvedent et peille.\"",
+    {
+      "entities": [
+        [
+          28,
+          54,
+          "DEPART"
+        ],
+        [
+          58,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des passages intéressants entre saillans et combs-la-ville?\"",
+    {
+      "entities": [
+        [
+          42,
+          50,
+          "DEPART"
+        ],
+        [
+          54,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"indique-moi la route de haut-mauco à la cabanasse.\"",
+    {
+      "entities": [
+        [
+          25,
+          35,
+          "DEPART"
+        ],
+        [
+          38,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me suggérer un itinéraire de port-la-nouvelle à saint-brieuc?\"",
+    {
+      "entities": [
+        [
+          42,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon but est de rejoindre orange en partant de réhon. quel serait l'itinéraire le plus direct?\"",
+    {
+      "entities": [
+        [
+          47,
+          52,
+          "DEPART"
+        ],
+        [
+          26,
+          32,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je partais de viviez pour viroflay, quelle route devrais-je prendre?\"",
+    {
+      "entities": [
+        [
+          18,
+          24,
+          "DEPART"
+        ],
+        [
+          30,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de nouvion-sur-meuse pour redon, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          53,
+          "DEPART"
+        ],
+        [
+          59,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne-moi les directions pour aller de givors à écuisses.\"",
+    {
+      "entities": [
+        [
+          40,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'optais pour le chemin le moins fréquenté entre villedieu-les-poêles et retiers, où me dirigerais-je?\"",
+    {
+      "entities": [
+        [
+          53,
+          73,
+          "DEPART"
+        ],
+        [
+          77,
+          84,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle serait mon option si je voulais un itinéraire direct de sarre-union à lentilly?\"",
+    {
+      "entities": [
+        [
+          64,
+          75,
+          "DEPART"
+        ],
+        [
+          78,
+          86,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"décrit la voie la plus pittoresque de joigny à bellac.\"",
+    {
+      "entities": [
+        [
+          39,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si ma prochaine étape était meulan depuis mondoubleau, comment y parviendrais-je?\"",
+    {
+      "entities": [
+        [
+          43,
+          54,
+          "DEPART"
+        ],
+        [
+          29,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une aventure de laroquebrou à levallois-perret, par où commencer?\"",
+    {
+      "entities": [
+        [
+          38,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il une liaison directe entre saint-médard-sur-ille et pontoise?\"",
+    {
+      "entities": [
+        [
+          39,
+          60,
+          "DEPART"
+        ],
+        [
+          64,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon désir est de parvenir à lucquy en quittant saint-ouen-l'aumone. quelle direction prendre?\"",
+    {
+      "entities": [
+        [
+          48,
+          67,
+          "DEPART"
+        ],
+        [
+          29,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"illustrate le chemin à suivre de bailleul à lardy.\"",
+    {
+      "entities": [
+        [
+          34,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je recherchais le trajet le plus pittoresque de meru à la tour-du-pin, par où passerais-je?\"",
+    {
+      "entities": [
+        [
+          52,
+          56,
+          "DEPART"
+        ],
+        [
+          59,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je cherche la meilleure voie pour saint-symphorien-de-marmagne en quittant chemillé. des suggestions?\"",
+    {
+      "entities": [
+        [
+          76,
+          84,
+          "DEPART"
+        ],
+        [
+          35,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'optais pour un voyage de luxeuil-les-bains à saint-léon-sur-l'isle, quelles directions suivrais-je?\"",
+    {
+      "entities": [
+        [
+          31,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"eclaire-moi sur le trajet de muizon à lille.\"",
+    {
+      "entities": [
+        [
+          30,
+          36,
+          "DEPART"
+        ],
+        [
+          39,
+          44,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre lérouville et bayeux.\"",
+    {
+      "entities": [
+        [
+          41,
+          51,
+          "DEPART"
+        ],
+        [
+          55,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre les options d'itinéraire de hagetmau à palaiseau.\"",
+    {
+      "entities": [
+        [
+          36,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fais-moi voir les différentes voies entre cagnes-sur-mer et port-de-bouc.\"",
+    {
+      "entities": [
+        [
+          43,
+          57,
+          "DEPART"
+        ],
+        [
+          61,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des restrictions sur la route de brens à grésy-sur-aix?\"",
+    {
+      "entities": [
+        [
+          46,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          67,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaite me rendre à dinan après macon, quel chemin serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          40,
+          45,
+          "DEPART"
+        ],
+        [
+          28,
+          33,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des restrictions sur la route de montrichard à siorac-en-périgord?\"",
+    {
+      "entities": [
+        [
+          46,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          78,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment est la circulation entre montchanin et condom?\"",
+    {
+      "entities": [
+        [
+          34,
+          44,
+          "DEPART"
+        ],
+        [
+          48,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les avantages de voyager de dinan à bessé-sur-braye?\"",
+    {
+      "entities": [
+        [
+          40,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'avais l'intention de partir de issoudun pour tarascon-sur-ariège, quel conseil me donnerais-tu?\"",
+    {
+      "entities": [
+        [
+          37,
+          45,
+          "DEPART"
+        ],
+        [
+          51,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me montrer un plan pour pierre-buffière à partir de bréauté?\"",
+    {
+      "entities": [
+        [
+          61,
+          68,
+          "DEPART"
+        ],
+        [
+          33,
+          48,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour atteindre colroy-la-grande depuis mon point de départ à rochy-condé, quelle est la voie recommandée?\"",
+    {
+      "entities": [
+        [
+          62,
+          73,
+          "DEPART"
+        ],
+        [
+          16,
+          32,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les avantages de voyager de boisset à vayrac?\"",
+    {
+      "entities": [
+        [
+          40,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaite me rendre à boé après aiguebelle, quel chemin serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          38,
+          48,
+          "DEPART"
+        ],
+        [
+          28,
+          31,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour une destination comme saincaize-meauce en partant de mee-sur-seine (le ), quel est le trajet suggéré?\"",
+    {
+      "entities": [
+        [
+          59,
+          78,
+          "DEPART"
+        ],
+        [
+          28,
+          44,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un voyage vers callac en provenance de salon-de-provence, quelles directions me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          45,
+          62,
+          "DEPART"
+        ],
+        [
+          21,
+          27,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse où je partirais de la rouge à paris, quel chemin me recommanderais-tu?\"",
+    {
+      "entities": [
+        [
+          37,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le chemin pour aller de oberhoffen-sur-moder à riedseltz?\"",
+    {
+      "entities": [
+        [
+          34,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour arriver à blois en laissant yutz derrière moi, où devrais-je me diriger?\"",
+    {
+      "entities": [
+        [
+          34,
+          38,
+          "DEPART"
+        ],
+        [
+          16,
+          21,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'un déplacement de janzé à dontrien, par quelle voie devrais-je opter?\"",
+    {
+      "entities": [
+        [
+          40,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"indique-moi la route de montreuil-sur-ille à genech.\"",
+    {
+      "entities": [
+        [
+          25,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à villers-saint-sépulcre, par où devrais-je passer en quittant rouffach?\"",
+    {
+      "entities": [
+        [
+          81,
+          89,
+          "DEPART"
+        ],
+        [
+          20,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi de ruffec à éloyes.\"",
+    {
+      "entities": [
+        [
+          14,
+          20,
+          "DEPART"
+        ],
+        [
+          23,
+          29,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"clarifie le chemin le plus sûr de sarreguemines à briare.\"",
+    {
+      "entities": [
+        [
+          35,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à éloyes, par où devrais-je passer en quittant seltz?\"",
+    {
+      "entities": [
+        [
+          65,
+          70,
+          "DEPART"
+        ],
+        [
+          20,
+          26,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment est la circulation entre balagny-sur-thérain et lathus-saint-rémy?\"",
+    {
+      "entities": [
+        [
+          34,
+          53,
+          "DEPART"
+        ],
+        [
+          57,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route choisirais-tu si tu étais à ma place et que tu allais de monsempron-libos à caudiès-de-fenouillèdes?\"",
+    {
+      "entities": [
+        [
+          71,
+          87,
+          "DEPART"
+        ],
+        [
+          90,
+          113,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment est la circulation entre portieux et massy?\"",
+    {
+      "entities": [
+        [
+          34,
+          42,
+          "DEPART"
+        ],
+        [
+          46,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"liste les étapes pour se rendre de saint-vincent à joncherey.\"",
+    {
+      "entities": [
+        [
+          36,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il un itinéraire direct entre gemeaux et lannemezan?\"",
+    {
+      "entities": [
+        [
+          40,
+          47,
+          "DEPART"
+        ],
+        [
+          51,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une escapade de louhans à pierre-buffière, quel serait le chemin le plus agréable?\"",
+    {
+      "entities": [
+        [
+          38,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me suggérer un itinéraire de roinville à vic-la-gardiole?\"",
+    {
+      "entities": [
+        [
+          42,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le meilleur moyen d'éviter les détours si je partais de reichshoffen à saint-amant?\"",
+    {
+      "entities": [
+        [
+          69,
+          81,
+          "DEPART"
+        ],
+        [
+          84,
+          95,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité où je me rendrais de theillay à villepinte, comment m'y prendrais-je?\"",
+    {
+      "entities": [
+        [
+          41,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en direction de verriere (la ) après avoir quitté coulombiers, quel itinéraire serait le plus pittoresque?\"",
+    {
+      "entities": [
+        [
+          51,
+          62,
+          "DEPART"
+        ],
+        [
+          17,
+          31,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je tenais à passer par les lieux les plus emblématiques entre menars et callac, quel itinéraire me recommanderais-tu?\"",
+    {
+      "entities": [
+        [
+          66,
+          72,
+          "DEPART"
+        ],
+        [
+          76,
+          82,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne les voies principales de limoges à saint-marcel.\"",
+    {
+      "entities": [
+        [
+          35,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à die, par où devrais-je passer en quittant valleroy?\"",
+    {
+      "entities": [
+        [
+          62,
+          70,
+          "DEPART"
+        ],
+        [
+          20,
+          23,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur les alternatives pour aller de vindrac-alayrac à bannalec.\"",
+    {
+      "entities": [
+        [
+          48,
+          63,
+          "DEPART"
+        ],
+        [
+          66,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fournis-moi un plan détaillé de sain-bel à bretigny.\"",
+    {
+      "entities": [
+        [
+          33,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"explique-moi la meilleure option pour aller de bourbourg à neuilly-sur-marne.\"",
+    {
+      "entities": [
+        [
+          48,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          77,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route choisirais-tu si tu étais à ma place et que tu allais de montsoult à chapelle-sur-erdre (la )?\"",
+    {
+      "entities": [
+        [
+          71,
+          80,
+          "DEPART"
+        ],
+        [
+          83,
+          107,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'envisageais de me déplacer de saint-germain-sur-morin à hunspach, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          36,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je vise thouars après mon départ de la bastide-puylaurent. quel itinéraire me conseilles-tu?\"",
+    {
+      "entities": [
+        [
+          37,
+          58,
+          "DEPART"
+        ],
+        [
+          9,
+          16,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi un itinéraire détaillé de coussac-bonneval à aix-en-provence.\"",
+    {
+      "entities": [
+        [
+          38,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"de quelle manière puis-je aller de étampes-sur-marne à puteaux?\"",
+    {
+      "entities": [
+        [
+          36,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment voyage-t-on de annecy à montivilliers habituellement?\"",
+    {
+      "entities": [
+        [
+          24,
+          30,
+          "DEPART"
+        ],
+        [
+          33,
+          46,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce loin pour aller de savennières à marseille?\"",
+    {
+      "entities": [
+        [
+          27,
+          38,
+          "DEPART"
+        ],
+        [
+          41,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je voulais éviter les embouteillages de moreuil à panissage, quel itinéraire choisirais-je?\"",
+    {
+      "entities": [
+        [
+          44,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"indique le meilleur chemin de étampes-sur-marne à saint-aubin.\"",
+    {
+      "entities": [
+        [
+          31,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si ma prochaine étape était manduel depuis neuville-aux-bois, comment y parviendrais-je?\"",
+    {
+      "entities": [
+        [
+          44,
+          61,
+          "DEPART"
+        ],
+        [
+          29,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse d'une première visite de marchezais à nimes, quelle serait la voie la plus instructive?\"",
+    {
+      "entities": [
+        [
+          43,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'avais l'intention de partir de amilly pour villiers-sur-loir, quel conseil me donnerais-tu?\"",
+    {
+      "entities": [
+        [
+          37,
+          43,
+          "DEPART"
+        ],
+        [
+          49,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route emprunterais-tu si tu devais te rendre de martigné-ferchaud à saint-laurent-du-var?\"",
+    {
+      "entities": [
+        [
+          56,
+          73,
+          "DEPART"
+        ],
+        [
+          76,
+          96,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne l'itinéraire optimal entre la charité-sur-loire et houilles.\"",
+    {
+      "entities": [
+        [
+          37,
+          57,
+          "DEPART"
+        ],
+        [
+          61,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre chemillé et joinville.\"",
+    {
+      "entities": [
+        [
+          41,
+          49,
+          "DEPART"
+        ],
+        [
+          53,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conduis-moi de sanry-sur-nied à cergy.\"",
+    {
+      "entities": [
+        [
+          16,
+          30,
+          "DEPART"
+        ],
+        [
+          33,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"explique le trajet le plus court de noisy-le-sec à us.\"",
+    {
+      "entities": [
+        [
+          37,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"identifie la route la plus rapide de saint-vincent à landas.\"",
+    {
+      "entities": [
+        [
+          38,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon but était de rejoindre chateau-gontier depuis selestat, quel chemin emprunterais-je?\"",
+    {
+      "entities": [
+        [
+          54,
+          62,
+          "DEPART"
+        ],
+        [
+          31,
+          46,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de valence pour sévérac, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          43,
+          "DEPART"
+        ],
+        [
+          49,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il un itinéraire direct entre arras et homécourt?\"",
+    {
+      "entities": [
+        [
+          40,
+          45,
+          "DEPART"
+        ],
+        [
+          49,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne l'itinéraire optimal entre la forest-landerneau et la roche-en-brenil.\"",
+    {
+      "entities": [
+        [
+          37,
+          57,
+          "DEPART"
+        ],
+        [
+          61,
+          79,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'optais pour un voyage de viroflay à tende, quelles directions suivrais-je?\"",
+    {
+      "entities": [
+        [
+          31,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          47,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en vue d'atteindre herny, comment devrais-je quitter amnéville?\"",
+    {
+      "entities": [
+        [
+          54,
+          63,
+          "DEPART"
+        ],
+        [
+          20,
+          25,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conduis-moi de rilly-la-montagne à dijon.\"",
+    {
+      "entities": [
+        [
+          16,
+          33,
+          "DEPART"
+        ],
+        [
+          36,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne les voies principales de vielmur-sur-agout à gragnague.\"",
+    {
+      "entities": [
+        [
+          35,
+          52,
+          "DEPART"
+        ],
+        [
+          55,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'optais pour le chemin le moins fréquenté entre donchery et la léchère, où me dirigerais-je?\"",
+    {
+      "entities": [
+        [
+          53,
+          61,
+          "DEPART"
+        ],
+        [
+          65,
+          75,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me suggérer un itinéraire de saint-paul-de-varax à montceau-les-mines?\"",
+    {
+      "entities": [
+        [
+          42,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          82,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"trace la meilleure voie entre couloisy et monts.\"",
+    {
+      "entities": [
+        [
+          31,
+          39,
+          "DEPART"
+        ],
+        [
+          43,
+          48,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le meilleur moyen d'éviter les détours si je partais de saint-symphorien-de-marmagne à saint-cergues?\"",
+    {
+      "entities": [
+        [
+          69,
+          97,
+          "DEPART"
+        ],
+        [
+          100,
+          113,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse d'une première visite de forbach à bourg-saint-maurice, quelle serait la voie la plus instructive?\"",
+    {
+      "entities": [
+        [
+          43,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en quête du chemin vers écouché en laissant derrière moi montmélian, où devrais-je me diriger?\"",
+    {
+      "entities": [
+        [
+          58,
+          68,
+          "DEPART"
+        ],
+        [
+          25,
+          32,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où je voyagerais de étréchy à précy-sur-oise, quelle serait la route la plus directe?\"",
+    {
+      "entities": [
+        [
+          33,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me demande quelle est la meilleure voie vers montbrison depuis saint-raphael. des idées?\"",
+    {
+      "entities": [
+        [
+          67,
+          80,
+          "DEPART"
+        ],
+        [
+          49,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"désirant arriver à mézy-moulins en venant de varennes-sur-seine, quelle direction me recommandes-tu?\"",
+    {
+      "entities": [
+        [
+          46,
+          64,
+          "DEPART"
+        ],
+        [
+          20,
+          32,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait l'itinéraire optimal si je voyageais de huningue à culoz?\"",
+    {
+      "entities": [
+        [
+          53,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur les alternatives pour aller de saint-dizier à myennes.\"",
+    {
+      "entities": [
+        [
+          48,
+          60,
+          "DEPART"
+        ],
+        [
+          63,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"précise la voie à emprunter de harfleur à orleans.\"",
+    {
+      "entities": [
+        [
+          32,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne les voies principales de lapeyrouse à fraisses.\"",
+    {
+      "entities": [
+        [
+          35,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me demande comment rejoindre saint-gilles après avoir laissé plaintel. des idées?\"",
+    {
+      "entities": [
+        [
+          65,
+          73,
+          "DEPART"
+        ],
+        [
+          33,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment voyage-t-on de maisse à leucate habituellement?\"",
+    {
+      "entities": [
+        [
+          24,
+          30,
+          "DEPART"
+        ],
+        [
+          33,
+          40,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des recommandations pour le voyage de pont-l'évêque à neussargues-moissac?\"",
+    {
+      "entities": [
+        [
+          48,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          83,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"représente graphiquement la route entre dijon et renescure.\"",
+    {
+      "entities": [
+        [
+          41,
+          46,
+          "DEPART"
+        ],
+        [
+          50,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon but est de rejoindre saint-gildas-des-bois en partant de seclin. quel serait l'itinéraire le plus direct?\"",
+    {
+      "entities": [
+        [
+          62,
+          68,
+          "DEPART"
+        ],
+        [
+          26,
+          47,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est sûr de voyager de andelot-en-montagne à argentan?\"",
+    {
+      "entities": [
+        [
+          36,
+          55,
+          "DEPART"
+        ],
+        [
+          58,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les meilleurs moyens de transport pour aller de cantaron à les trois-domaines?\"",
+    {
+      "entities": [
+        [
+          60,
+          68,
+          "DEPART"
+        ],
+        [
+          71,
+          89,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'avais l'intention de partir de saint-louis pour saint-pierre-la-cour, quel conseil me donnerais-tu?\"",
+    {
+      "entities": [
+        [
+          37,
+          48,
+          "DEPART"
+        ],
+        [
+          54,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"identifie la route la plus rapide de luché-thouarsais à louroux-de-bouble.\"",
+    {
+      "entities": [
+        [
+          38,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en direction de souillac après avoir quitté lannemezan, quel itinéraire serait le plus pittoresque?\"",
+    {
+      "entities": [
+        [
+          45,
+          55,
+          "DEPART"
+        ],
+        [
+          17,
+          25,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est compliqué de voyager de chaulnes à hoenheim?\"",
+    {
+      "entities": [
+        [
+          42,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'optais pour le chemin le moins fréquenté entre bayonne et la fère, où me dirigerais-je?\"",
+    {
+      "entities": [
+        [
+          53,
+          60,
+          "DEPART"
+        ],
+        [
+          64,
+          71,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des liaisons moins fréquentées entre chamonix-mont-blanc et villenave-d'ornon?\"",
+    {
+      "entities": [
+        [
+          50,
+          69,
+          "DEPART"
+        ],
+        [
+          73,
+          90,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'un déplacement de plaisir à ermont, par quelle voie devrais-je opter?\"",
+    {
+      "entities": [
+        [
+          40,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une escapade de vrigne-meuse à enveitg, quel serait le chemin le plus agréable?\"",
+    {
+      "entities": [
+        [
+          38,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le meilleur moyen d'éviter les détours si je partais de mézy-moulins à eygliers?\"",
+    {
+      "entities": [
+        [
+          69,
+          81,
+          "DEPART"
+        ],
+        [
+          84,
+          92,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dessine l'itinéraire entre saint-amand-les-eaux et bretigny.\"",
+    {
+      "entities": [
+        [
+          28,
+          48,
+          "DEPART"
+        ],
+        [
+          52,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne un aperçu des options de trajet entre strasbourg et plounérin.\"",
+    {
+      "entities": [
+        [
+          45,
+          55,
+          "DEPART"
+        ],
+        [
+          59,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conseille-moi sur les itinéraires de valenciennes à tremblay-en-france.\"",
+    {
+      "entities": [
+        [
+          38,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          71,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"eclaire-moi sur le trajet de chalonnes-sur-loire à laragne-montéglin.\"",
+    {
+      "entities": [
+        [
+          30,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur les alternatives pour aller de cagnes-sur-mer à brioude.\"",
+    {
+      "entities": [
+        [
+          48,
+          62,
+          "DEPART"
+        ],
+        [
+          65,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conseille-moi sur le parcours de ales à trilport.\"",
+    {
+      "entities": [
+        [
+          34,
+          38,
+          "DEPART"
+        ],
+        [
+          41,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de cruas pour honnechy, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          47,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon but était de rejoindre éveux depuis macon, quel chemin emprunterais-je?\"",
+    {
+      "entities": [
+        [
+          44,
+          49,
+          "DEPART"
+        ],
+        [
+          31,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait l'itinéraire optimal si je voyageais de fouilloy à saint-yrieix-la-perche?\"",
+    {
+      "entities": [
+        [
+          53,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          86,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur les alternatives pour aller de renescure à fouilloy.\"",
+    {
+      "entities": [
+        [
+          48,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je désirais un parcours sans tracas de dammarie-les-lys à savonnières, quelle voie prendrais-je?\"",
+    {
+      "entities": [
+        [
+          43,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin d'arriver sereinement à saint-sulpice-laurière en venant de chasseneuil-du-poitou, par où passer?\"",
+    {
+      "entities": [
+        [
+          66,
+          87,
+          "DEPART"
+        ],
+        [
+          30,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le moyen le plus rapide pour se rendre de la voulte-sur-rhône à mérenvielle?\"",
+    {
+      "entities": [
+        [
+          52,
+          71,
+          "DEPART"
+        ],
+        [
+          74,
+          85,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fais-moi voir les différentes voies entre lattes et valleiry.\"",
+    {
+      "entities": [
+        [
+          43,
+          49,
+          "DEPART"
+        ],
+        [
+          53,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"indique le meilleur chemin de vitry-le-francois à boé.\"",
+    {
+      "entities": [
+        [
+          31,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conduis-moi de reims à vinay.\"",
+    {
+      "entities": [
+        [
+          16,
+          21,
+          "DEPART"
+        ],
+        [
+          24,
+          29,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fais-moi voir les différentes voies entre saint-die et fenouillet.\"",
+    {
+      "entities": [
+        [
+          43,
+          52,
+          "DEPART"
+        ],
+        [
+          56,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur la voie la plus directe de pont-sur-yonne à les moutiers-en-retz.\"",
+    {
+      "entities": [
+        [
+          44,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"présente-moi les étapes de vimy à luçon.\"",
+    {
+      "entities": [
+        [
+          28,
+          32,
+          "DEPART"
+        ],
+        [
+          35,
+          40,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le moyen le plus rapide pour se rendre de peltre à boves?\"",
+    {
+      "entities": [
+        [
+          52,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur la voie la plus directe de vaux-sous-aubigny à saint-quentin-fallavier.\"",
+    {
+      "entities": [
+        [
+          44,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          87,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un voyage vers versailles en provenance de fouquereuil, quelles directions me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          49,
+          60,
+          "DEPART"
+        ],
+        [
+          21,
+          31,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le trajet optimal de mulhouse à cannes.\"",
+    {
+      "entities": [
+        [
+          30,
+          38,
+          "DEPART"
+        ],
+        [
+          41,
+          47,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce possible de voyager directement de saint-blaise-la-roche à bétaille?\"",
+    {
+      "entities": [
+        [
+          43,
+          64,
+          "DEPART"
+        ],
+        [
+          67,
+          75,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"explique-moi la meilleure option pour aller de évette-salbert à poussay.\"",
+    {
+      "entities": [
+        [
+          48,
+          62,
+          "DEPART"
+        ],
+        [
+          65,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le chemin direct de saint-raphael à louargat.\"",
+    {
+      "entities": [
+        [
+          29,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec l'intention d'atteindre saint-egreve, quelle serait ma route depuis tergnier?\"",
+    {
+      "entities": [
+        [
+          74,
+          82,
+          "DEPART"
+        ],
+        [
+          30,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des voies alternatives de saint-brieuc à selommes?\"",
+    {
+      "entities": [
+        [
+          36,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi de charleville-mezieres à la meyze.\"",
+    {
+      "entities": [
+        [
+          14,
+          34,
+          "DEPART"
+        ],
+        [
+          37,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"désirant arriver à motteville en venant de gironcourt-sur-vraine, quelle direction me recommandes-tu?\"",
+    {
+      "entities": [
+        [
+          44,
+          65,
+          "DEPART"
+        ],
+        [
+          20,
+          30,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle serait mon option si je voulais un itinéraire direct de chamonix-mont-blanc à avesnes-sur-helpe?\"",
+    {
+      "entities": [
+        [
+          64,
+          83,
+          "DEPART"
+        ],
+        [
+          86,
+          103,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi de luché-thouarsais à colombes.\"",
+    {
+      "entities": [
+        [
+          14,
+          30,
+          "DEPART"
+        ],
+        [
+          33,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"détaille le parcours entre maillé et saint-mard.\"",
+    {
+      "entities": [
+        [
+          28,
+          34,
+          "DEPART"
+        ],
+        [
+          38,
+          48,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon projet était d'aller de chocques à perigueux, quelles étapes devrais-je suivre?\"",
+    {
+      "entities": [
+        [
+          32,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il un itinéraire direct entre pont-de-buis-lès-quimerch et buchy?\"",
+    {
+      "entities": [
+        [
+          40,
+          65,
+          "DEPART"
+        ],
+        [
+          69,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les arrêts entre villemomble et montrichard?\"",
+    {
+      "entities": [
+        [
+          29,
+          40,
+          "DEPART"
+        ],
+        [
+          44,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"j'ai prévu de me rendre à thiaville-sur-meurthe en quittant savennières. comment m'y prendre?\"",
+    {
+      "entities": [
+        [
+          61,
+          72,
+          "DEPART"
+        ],
+        [
+          27,
+          48,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route choisirais-tu si tu étais à ma place et que tu allais de saint-chamas à sennecey-le-grand?\"",
+    {
+      "entities": [
+        [
+          71,
+          83,
+          "DEPART"
+        ],
+        [
+          86,
+          103,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une aventure de étrépagny à boves, par où commencer?\"",
+    {
+      "entities": [
+        [
+          38,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"explique le trajet le plus court de gannat à schiltigheim.\"",
+    {
+      "entities": [
+        [
+          37,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse où je prévoirais un trajet de strasbourg à charbonnières-les-bains, quelle serait la meilleure option?\"",
+    {
+      "entities": [
+        [
+          48,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          84,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je me rendre de savigny-sur-orge à la fouillouse?\"",
+    {
+      "entities": [
+        [
+          30,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment voyage-t-on de arras à strasbourg habituellement?\"",
+    {
+      "entities": [
+        [
+          24,
+          29,
+          "DEPART"
+        ],
+        [
+          32,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"clarifie le chemin le plus sûr de wintzenheim à saint-louis.\"",
+    {
+      "entities": [
+        [
+          35,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi la meilleure route de bourbriac à verneuil-sur-seine.\"",
+    {
+      "entities": [
+        [
+          34,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"indique-moi la route de cadaujac à brive-la-gaillarde.\"",
+    {
+      "entities": [
+        [
+          25,
+          33,
+          "DEPART"
+        ],
+        [
+          36,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'envisageais un détour par anché depuis ennezat, quel parcours serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          45,
+          52,
+          "DEPART"
+        ],
+        [
+          32,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin d'arriver sereinement à marles-les-mines en venant de plouharnel, par où passer?\"",
+    {
+      "entities": [
+        [
+          60,
+          70,
+          "DEPART"
+        ],
+        [
+          30,
+          46,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le chemin direct de pontarlier à le grau-du-roi.\"",
+    {
+      "entities": [
+        [
+          29,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"précise la voie à emprunter de savy-berlette à annemasse.\"",
+    {
+      "entities": [
+        [
+          32,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fais-moi voir les différentes voies entre veuves et neuville-aux-bois.\"",
+    {
+      "entities": [
+        [
+          43,
+          49,
+          "DEPART"
+        ],
+        [
+          53,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour aller à mamirolle depuis générac, quel est le meilleur itinéraire?\"",
+    {
+      "entities": [
+        [
+          31,
+          38,
+          "DEPART"
+        ],
+        [
+          14,
+          23,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"trace la meilleure voie entre honnechy et gouaix.\"",
+    {
+      "entities": [
+        [
+          31,
+          39,
+          "DEPART"
+        ],
+        [
+          43,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de me rendre à thiais, quel chemin devrais-je emprunter depuis sucé-sur-erdre?\"",
+    {
+      "entities": [
+        [
+          69,
+          83,
+          "DEPART"
+        ],
+        [
+          21,
+          27,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"clarifie le chemin le plus sûr de vergigny à moult.\"",
+    {
+      "entities": [
+        [
+          35,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la meilleure façon de voyager de eaubonne à beaune-la-rolande?\"",
+    {
+      "entities": [
+        [
+          45,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon but était de rejoindre le château-d'almenêches depuis tende, quel chemin emprunterais-je?\"",
+    {
+      "entities": [
+        [
+          62,
+          67,
+          "DEPART"
+        ],
+        [
+          31,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi pas à pas de fougerolles à breuil.\"",
+    {
+      "entities": [
+        [
+          24,
+          35,
+          "DEPART"
+        ],
+        [
+          38,
+          44,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"identifie la route la plus rapide de marseillan à mer.\"",
+    {
+      "entities": [
+        [
+          38,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi la meilleure route de rosult à laveissière.\"",
+    {
+      "entities": [
+        [
+          34,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un voyage vers montereau-fault-yonne en provenance de livry-gargan, quelles directions me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          60,
+          72,
+          "DEPART"
+        ],
+        [
+          21,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la voie la plus directe pour rejoindre remy en partant de la bonneville-sur-iton?\"",
+    {
+      "entities": [
+        [
+          70,
+          92,
+          "DEPART"
+        ],
+        [
+          51,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour une destination comme thiviers en partant de moreuil, quel est le trajet suggéré?\"",
+    {
+      "entities": [
+        [
+          51,
+          58,
+          "DEPART"
+        ],
+        [
+          28,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en vue d'atteindre tamnay-en-bazois, comment devrais-je quitter vic-la-gardiole?\"",
+    {
+      "entities": [
+        [
+          65,
+          80,
+          "DEPART"
+        ],
+        [
+          20,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur la voie la plus directe de saint-pierre-du-vauvray à poitiers.\"",
+    {
+      "entities": [
+        [
+          44,
+          67,
+          "DEPART"
+        ],
+        [
+          70,
+          78,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route choisirais-tu si tu étais à ma place et que tu allais de leucate à plaisir?\"",
+    {
+      "entities": [
+        [
+          71,
+          78,
+          "DEPART"
+        ],
+        [
+          81,
+          88,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je souhaite me diriger vers laval-de-cère après avoir quitté saint-léger-sur-dheune. quelle route prendre?\"",
+    {
+      "entities": [
+        [
+          62,
+          84,
+          "DEPART"
+        ],
+        [
+          29,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me montrer un plan pour mignères à partir de saint-léonard?\"",
+    {
+      "entities": [
+        [
+          54,
+          67,
+          "DEPART"
+        ],
+        [
+          33,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le parcours suggéré entre la motte et richwiller?\"",
+    {
+      "entities": [
+        [
+          36,
+          44,
+          "DEPART"
+        ],
+        [
+          48,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon désir est de parvenir à châtenois en quittant villefranche-de-rouergue. quelle direction prendre?\"",
+    {
+      "entities": [
+        [
+          51,
+          75,
+          "DEPART"
+        ],
+        [
+          29,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le parcours suggéré entre bricy et baule-escoublac (la )?\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          45,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me demande quelle est la meilleure voie vers arras depuis garde (la ). des idées?\"",
+    {
+      "entities": [
+        [
+          62,
+          73,
+          "DEPART"
+        ],
+        [
+          49,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce possible de voyager directement de marquette-lez-lille à renescure?\"",
+    {
+      "entities": [
+        [
+          43,
+          62,
+          "DEPART"
+        ],
+        [
+          65,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des passages intéressants entre jarville-la-malgrange et mézin?\"",
+    {
+      "entities": [
+        [
+          42,
+          63,
+          "DEPART"
+        ],
+        [
+          67,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de anse pour paris, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          40,
+          "DEPART"
+        ],
+        [
+          46,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conduis-moi de veigné à moreuil.\"",
+    {
+      "entities": [
+        [
+          16,
+          22,
+          "DEPART"
+        ],
+        [
+          25,
+          32,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour mon voyage vers bugeat après franois, quelle serait la meilleure direction?\"",
+    {
+      "entities": [
+        [
+          35,
+          42,
+          "DEPART"
+        ],
+        [
+          22,
+          28,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me dire le trajet de franconville à mothern?\"",
+    {
+      "entities": [
+        [
+          30,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à trith-saint-léger, par où devrais-je passer en quittant villefranche-de-lauragais?\"",
+    {
+      "entities": [
+        [
+          76,
+          101,
+          "DEPART"
+        ],
+        [
+          20,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'envisageais de me déplacer de aubevoye à saint-etienne, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          36,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle serait mon option si je voulais un itinéraire direct de colombier-fontaine à dourdan?\"",
+    {
+      "entities": [
+        [
+          64,
+          82,
+          "DEPART"
+        ],
+        [
+          85,
+          92,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le trajet optimal de saint-pierre-lès-nemours à preignac.\"",
+    {
+      "entities": [
+        [
+          30,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          65,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il une liaison directe entre saint-etienne et vaux-en-bugey?\"",
+    {
+      "entities": [
+        [
+          39,
+          52,
+          "DEPART"
+        ],
+        [
+          56,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me montrer un plan pour novéant-sur-moselle à partir de concarneau?\"",
+    {
+      "entities": [
+        [
+          65,
+          75,
+          "DEPART"
+        ],
+        [
+          33,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaite me rendre à quimperle après parempuyre, quel chemin serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          44,
+          54,
+          "DEPART"
+        ],
+        [
+          28,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la voie la plus directe pour rejoindre mourioux-vieilleville en partant de septemes-les-vallons?\"",
+    {
+      "entities": [
+        [
+          87,
+          107,
+          "DEPART"
+        ],
+        [
+          51,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la meilleure façon de voyager de réhon à roncq?\"",
+    {
+      "entities": [
+        [
+          45,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le trajet optimal de loreux à auboué.\"",
+    {
+      "entities": [
+        [
+          30,
+          36,
+          "DEPART"
+        ],
+        [
+          39,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des passages intéressants entre crêches-sur-saône et vierzon?\"",
+    {
+      "entities": [
+        [
+          42,
+          59,
+          "DEPART"
+        ],
+        [
+          63,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi un itinéraire détaillé de grésy-sur-aix à bersac-sur-rivalier.\"",
+    {
+      "entities": [
+        [
+          38,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si strasbourg était ma destination depuis manthes, quel chemin me conseillerais-tu?\"",
+    {
+      "entities": [
+        [
+          43,
+          50,
+          "DEPART"
+        ],
+        [
+          4,
+          14,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je cherche la meilleure voie pour vic-la-gardiole en quittant concarneau. des suggestions?\"",
+    {
+      "entities": [
+        [
+          63,
+          73,
+          "DEPART"
+        ],
+        [
+          35,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne-moi les directions pour aller de ris-orangis à obermodern-zutzendorf.\"",
+    {
+      "entities": [
+        [
+          40,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          75,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse où je prévoirais un trajet de saint-hilaire-sur-helpe à arches, quelle serait la meilleure option?\"",
+    {
+      "entities": [
+        [
+          48,
+          71,
+          "DEPART"
+        ],
+        [
+          74,
+          80,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec colomiers comme destination depuis brens, quel chemin serait le plus rapide?\"",
+    {
+      "entities": [
+        [
+          41,
+          46,
+          "DEPART"
+        ],
+        [
+          6,
+          15,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon but est de rejoindre villefranque en partant de bournezeau. quel serait l'itinéraire le plus direct?\"",
+    {
+      "entities": [
+        [
+          53,
+          63,
+          "DEPART"
+        ],
+        [
+          26,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en quête du chemin vers lamagistère en laissant derrière moi pont-audemer, où devrais-je me diriger?\"",
+    {
+      "entities": [
+        [
+          62,
+          74,
+          "DEPART"
+        ],
+        [
+          25,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le parcours suggéré entre armentieres et ars-sur-moselle?\"",
+    {
+      "entities": [
+        [
+          36,
+          47,
+          "DEPART"
+        ],
+        [
+          51,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je planifie un voyage vers château-arnoux-saint-auban après avoir quitté les essarts-le-roi. quelle voie devrais-je choisir?\"",
+    {
+      "entities": [
+        [
+          74,
+          92,
+          "DEPART"
+        ],
+        [
+          28,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"vers wimille depuis la léchère, quelle route devrais-je privilégier pour un voyage agréable?\"",
+    {
+      "entities": [
+        [
+          21,
+          31,
+          "DEPART"
+        ],
+        [
+          6,
+          13,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les meilleurs moyens de transport pour aller de laizy à peltre?\"",
+    {
+      "entities": [
+        [
+          60,
+          65,
+          "DEPART"
+        ],
+        [
+          68,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"de combien de temps aurais-je besoin pour aller de saint-lo à asnieres-sur-seine?\"",
+    {
+      "entities": [
+        [
+          52,
+          60,
+          "DEPART"
+        ],
+        [
+          63,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse où je prévoirais un trajet de serquigny à bethune, quelle serait la meilleure option?\"",
+    {
+      "entities": [
+        [
+          48,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          67,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une aventure de imphy à louroux-de-bouble, par où commencer?\"",
+    {
+      "entities": [
+        [
+          38,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je me déplacer de athis-mons à epinal?\"",
+    {
+      "entities": [
+        [
+          32,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"précise la voie à emprunter de portieux à plouharnel.\"",
+    {
+      "entities": [
+        [
+          32,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne un aperçu des options de trajet entre peille et savennières.\"",
+    {
+      "entities": [
+        [
+          45,
+          51,
+          "DEPART"
+        ],
+        [
+          55,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"de quelle manière puis-je aller de saint-etienne à ligugé?\"",
+    {
+      "entities": [
+        [
+          36,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les meilleurs moyens de transport pour aller de bagnères-de-luchon à tarbes?\"",
+    {
+      "entities": [
+        [
+          60,
+          78,
+          "DEPART"
+        ],
+        [
+          81,
+          87,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans la perspective d'aller de pleine-fougères à agonac, quel itinéraire privilégierais-je?\"",
+    {
+      "entities": [
+        [
+          32,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le trajet le plus rapide si je me dirigeais de carantilly vers auterive?\"",
+    {
+      "entities": [
+        [
+          60,
+          70,
+          "DEPART"
+        ],
+        [
+          76,
+          84,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des recommandations pour le voyage de montigny-les-cormeilles à pessac?\"",
+    {
+      "entities": [
+        [
+          48,
+          71,
+          "DEPART"
+        ],
+        [
+          74,
+          80,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le meilleur moyen d'éviter les détours si je partais de le lardin-saint-lazare à orange?\"",
+    {
+      "entities": [
+        [
+          69,
+          91,
+          "DEPART"
+        ],
+        [
+          94,
+          100,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"détaille le parcours entre chenonceaux et corps-nuds.\"",
+    {
+      "entities": [
+        [
+          28,
+          39,
+          "DEPART"
+        ],
+        [
+          43,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"renseigne-moi sur les raccourcis entre fontainebleau et entraigues-sur-la-sorgue.\"",
+    {
+      "entities": [
+        [
+          40,
+          53,
+          "DEPART"
+        ],
+        [
+          57,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des passages intéressants entre amiens et paimpol?\"",
+    {
+      "entities": [
+        [
+          42,
+          48,
+          "DEPART"
+        ],
+        [
+          52,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me montrer un plan pour rochelle (la ) à partir de gannat?\"",
+    {
+      "entities": [
+        [
+          60,
+          66,
+          "DEPART"
+        ],
+        [
+          33,
+          47,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon but est de rejoindre fromental en partant de devecey. quel serait l'itinéraire le plus direct?\"",
+    {
+      "entities": [
+        [
+          50,
+          57,
+          "DEPART"
+        ],
+        [
+          26,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me dirige vers aulnay-sous-bois en venant de saint-germain-au-mont-d'or. quel itinéraire me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          49,
+          75,
+          "DEPART"
+        ],
+        [
+          19,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est l'option la plus confortable pour se rendre de hatrize à la bouteille?\"",
+    {
+      "entities": [
+        [
+          59,
+          66,
+          "DEPART"
+        ],
+        [
+          69,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je me déplacer de coignières à wisches?\"",
+    {
+      "entities": [
+        [
+          32,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle serait mon option si je voulais un itinéraire direct de génolhac à metz?\"",
+    {
+      "entities": [
+        [
+          64,
+          72,
+          "DEPART"
+        ],
+        [
+          75,
+          79,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaite me rendre à saincaize-meauce après rennes, quel chemin serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          51,
+          57,
+          "DEPART"
+        ],
+        [
+          28,
+          44,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me suggérer un itinéraire de baume-les-dames à rosult?\"",
+    {
+      "entities": [
+        [
+          42,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il un itinéraire direct entre vienne et saint-priest-taurion?\"",
+    {
+      "entities": [
+        [
+          40,
+          46,
+          "DEPART"
+        ],
+        [
+          50,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"présente-moi les étapes de saint-pierre-d'aurillac à marseille.\"",
+    {
+      "entities": [
+        [
+          28,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une escapade de lapeyrouse à pérenchies, quel serait le chemin le plus agréable?\"",
+    {
+      "entities": [
+        [
+          38,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si ma prochaine étape était la perche depuis saillagouse, comment y parviendrais-je?\"",
+    {
+      "entities": [
+        [
+          46,
+          57,
+          "DEPART"
+        ],
+        [
+          29,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi de saint-hilaire-de-chaléons à houdemont.\"",
+    {
+      "entities": [
+        [
+          14,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce loin pour aller de carbonne à antibes?\"",
+    {
+      "entities": [
+        [
+          27,
+          35,
+          "DEPART"
+        ],
+        [
+          38,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les meilleurs moyens de transport pour aller de saint-clair-du-rhône à arques-la-bataille?\"",
+    {
+      "entities": [
+        [
+          60,
+          80,
+          "DEPART"
+        ],
+        [
+          83,
+          101,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon but est de rejoindre lille en partant de plouvara. quel serait l'itinéraire le plus direct?\"",
+    {
+      "entities": [
+        [
+          46,
+          54,
+          "DEPART"
+        ],
+        [
+          26,
+          31,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les arrêts entre nexon et sainte-bazeille?\"",
+    {
+      "entities": [
+        [
+          29,
+          34,
+          "DEPART"
+        ],
+        [
+          38,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si bezannes est mon point d'arrivée après dommary-baroncourt, quel serait le parcours optimal?\"",
+    {
+      "entities": [
+        [
+          43,
+          61,
+          "DEPART"
+        ],
+        [
+          4,
+          12,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre les options d'itinéraire de romorantin-lanthenay à cazères.\"",
+    {
+      "entities": [
+        [
+          36,
+          56,
+          "DEPART"
+        ],
+        [
+          59,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'optais pour un voyage de marly à loudun, quelles directions suivrais-je?\"",
+    {
+      "entities": [
+        [
+          31,
+          36,
+          "DEPART"
+        ],
+        [
+          39,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans la perspective d'aller de valmont à éloyes, quel itinéraire privilégierais-je?\"",
+    {
+      "entities": [
+        [
+          32,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          48,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je veux connaître le trajet vers bussière-galant en partant de paris. des recommandations?\"",
+    {
+      "entities": [
+        [
+          64,
+          69,
+          "DEPART"
+        ],
+        [
+          34,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je projette de me rendre à saint-étienne-de-montluc après avoir quitté menars. des conseils?\"",
+    {
+      "entities": [
+        [
+          72,
+          78,
+          "DEPART"
+        ],
+        [
+          28,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il une liaison directe entre charmont-sous-barbuise et saint-cyr-l'ecole?\"",
+    {
+      "entities": [
+        [
+          39,
+          61,
+          "DEPART"
+        ],
+        [
+          65,
+          82,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"illustrate le chemin à suivre de port-vendres à veneux-les-sablons.\"",
+    {
+      "entities": [
+        [
+          34,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          67,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne l'itinéraire optimal entre nexon et onville.\"",
+    {
+      "entities": [
+        [
+          37,
+          42,
+          "DEPART"
+        ],
+        [
+          46,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me dire le trajet de epinal à saint-blaise-la-roche?\"",
+    {
+      "entities": [
+        [
+          30,
+          36,
+          "DEPART"
+        ],
+        [
+          39,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la meilleure façon de voyager de saincaize-meauce à pompey?\"",
+    {
+      "entities": [
+        [
+          45,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce possible de voyager directement de beaumont-le-roger à chamousset?\"",
+    {
+      "entities": [
+        [
+          43,
+          60,
+          "DEPART"
+        ],
+        [
+          63,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse où je partirais de sevres à schiltigheim, quel chemin me recommanderais-tu?\"",
+    {
+      "entities": [
+        [
+          37,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me dire le trajet de avallon à laveline-devant-bruyères?\"",
+    {
+      "entities": [
+        [
+          30,
+          37,
+          "DEPART"
+        ],
+        [
+          40,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment est la circulation entre meximieux et chaulnes?\"",
+    {
+      "entities": [
+        [
+          34,
+          43,
+          "DEPART"
+        ],
+        [
+          47,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des voies alternatives de hochfelden à saint-pierre-la-cour?\"",
+    {
+      "entities": [
+        [
+          36,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je voudrais me rendre à jeumont après mon départ de macon. quelle route choisir?\"",
+    {
+      "entities": [
+        [
+          53,
+          58,
+          "DEPART"
+        ],
+        [
+          25,
+          32,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse où je prévoirais un trajet de breteuil à sarre-union, quelle serait la meilleure option?\"",
+    {
+      "entities": [
+        [
+          48,
+          56,
+          "DEPART"
+        ],
+        [
+          59,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'un déplacement de saint-louis à pessac, par quelle voie devrais-je opter?\"",
+    {
+      "entities": [
+        [
+          40,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour mon voyage vers saint-macaire après tonnay-charente, quelle serait la meilleure direction?\"",
+    {
+      "entities": [
+        [
+          42,
+          57,
+          "DEPART"
+        ],
+        [
+          22,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des voies alternatives de bournoncle-saint-pierre à maubeuge?\"",
+    {
+      "entities": [
+        [
+          36,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fais-moi voir les différentes voies entre marvejols et bussac-forêt.\"",
+    {
+      "entities": [
+        [
+          43,
+          52,
+          "DEPART"
+        ],
+        [
+          56,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"vers saint-jean-pla-de-corts depuis paris, quelle route devrais-je privilégier pour un voyage agréable?\"",
+    {
+      "entities": [
+        [
+          37,
+          42,
+          "DEPART"
+        ],
+        [
+          6,
+          29,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"eclaire-moi sur les routes possibles de stenay à saint-pierre-quiberon.\"",
+    {
+      "entities": [
+        [
+          41,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          71,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon but était de rejoindre bandol depuis moûtiers, quel chemin emprunterais-je?\"",
+    {
+      "entities": [
+        [
+          45,
+          53,
+          "DEPART"
+        ],
+        [
+          31,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans la perspective d'aller de le pouliguen à bitche, quel itinéraire privilégierais-je?\"",
+    {
+      "entities": [
+        [
+          32,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fournis-moi un plan détaillé de selestat à bainville-sur-madon.\"",
+    {
+      "entities": [
+        [
+          33,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"liste les étapes pour se rendre de ferrières-en-bray à gironde-sur-dropt.\"",
+    {
+      "entities": [
+        [
+          36,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"eclaire-moi sur le trajet de bollwiller à saint-péray.\"",
+    {
+      "entities": [
+        [
+          30,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi pas à pas de lutterbach à aixe-sur-vienne.\"",
+    {
+      "entities": [
+        [
+          24,
+          34,
+          "DEPART"
+        ],
+        [
+          37,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu m'indiquer la route pour pierre-benite depuis issy-les-moulineaux?\"",
+    {
+      "entities": [
+        [
+          55,
+          74,
+          "DEPART"
+        ],
+        [
+          34,
+          47,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"explique le trajet le plus court de pierreville à pouilly-sur-loire.\"",
+    {
+      "entities": [
+        [
+          37,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"liste les étapes pour se rendre de roncq à saint-prest.\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je partais de donges pour les houches, quelle route devrais-je prendre?\"",
+    {
+      "entities": [
+        [
+          18,
+          24,
+          "DEPART"
+        ],
+        [
+          30,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon objectif est d'arriver à chessy, comment devrais-je partir de chauny?\"",
+    {
+      "entities": [
+        [
+          70,
+          76,
+          "DEPART"
+        ],
+        [
+          33,
+          39,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en me déplaçant vers donchery depuis epiry, quel itinéraire serait le plus approprié?\"",
+    {
+      "entities": [
+        [
+          38,
+          43,
+          "DEPART"
+        ],
+        [
+          22,
+          30,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le chemin direct de marcy-l'étoile à le bousquet-d'orb.\"",
+    {
+      "entities": [
+        [
+          29,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je cherche la meilleure voie pour lunery en quittant sées. des suggestions?\"",
+    {
+      "entities": [
+        [
+          54,
+          58,
+          "DEPART"
+        ],
+        [
+          35,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où mon trajet me mènerait de saint-cyr-sur-mer à limeyrat, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          42,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le parcours suggéré entre us et corgoloin?\"",
+    {
+      "entities": [
+        [
+          36,
+          38,
+          "DEPART"
+        ],
+        [
+          42,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à donchery, par où devrais-je passer en quittant clonas-sur-varèze?\"",
+    {
+      "entities": [
+        [
+          67,
+          84,
+          "DEPART"
+        ],
+        [
+          20,
+          28,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je recherchais le trajet le plus pittoresque de oberhoffen-sur-moder à bagneaux-sur-loing, par où passerais-je?\"",
+    {
+      "entities": [
+        [
+          52,
+          72,
+          "DEPART"
+        ],
+        [
+          75,
+          93,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité où je me rendrais de haubourdin à bruyères, comment m'y prendrais-je?\"",
+    {
+      "entities": [
+        [
+          41,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je voulais éviter les embouteillages de esclanèdes à chaingy, quel itinéraire choisirais-je?\"",
+    {
+      "entities": [
+        [
+          44,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en direction de jouy après avoir quitté saint-usage, quel itinéraire serait le plus pittoresque?\"",
+    {
+      "entities": [
+        [
+          41,
+          52,
+          "DEPART"
+        ],
+        [
+          17,
+          21,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"indique le meilleur chemin de fleury-les-aubrais à audun-le-roman.\"",
+    {
+      "entities": [
+        [
+          31,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je cherche la meilleure voie pour luxé en quittant darcey. des suggestions?\"",
+    {
+      "entities": [
+        [
+          52,
+          58,
+          "DEPART"
+        ],
+        [
+          35,
+          39,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de me rendre à hirson, quel chemin devrais-je emprunter depuis saint-aigulin?\"",
+    {
+      "entities": [
+        [
+          69,
+          82,
+          "DEPART"
+        ],
+        [
+          21,
+          27,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est l'option la plus confortable pour se rendre de saverne à tamnay-en-bazois?\"",
+    {
+      "entities": [
+        [
+          59,
+          66,
+          "DEPART"
+        ],
+        [
+          69,
+          85,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dessine l'itinéraire entre la souterraine et longpont.\"",
+    {
+      "entities": [
+        [
+          28,
+          42,
+          "DEPART"
+        ],
+        [
+          46,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des voies alternatives de bondy à saint-savinien?\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaite me rendre à bourges après valleiry, quel chemin serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          42,
+          50,
+          "DEPART"
+        ],
+        [
+          28,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me dire le trajet de achiet-le-grand à sainte-colombe-sur-seine?\"",
+    {
+      "entities": [
+        [
+          30,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le trajet optimal de angoulins à marseille.\"",
+    {
+      "entities": [
+        [
+          30,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en direction de marseille après avoir quitté trémolat, quel itinéraire serait le plus pittoresque?\"",
+    {
+      "entities": [
+        [
+          46,
+          54,
+          "DEPART"
+        ],
+        [
+          17,
+          26,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route dois-je emprunter pour aller de byans-sur-doubs à saillat-sur-vienne?\"",
+    {
+      "entities": [
+        [
+          46,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          82,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre les options d'itinéraire de gannes à pougny.\"",
+    {
+      "entities": [
+        [
+          36,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"suggère une voie alternative de menars à neuves-maisons.\"",
+    {
+      "entities": [
+        [
+          33,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le parcours suggéré entre muille-villette et prémery?\"",
+    {
+      "entities": [
+        [
+          36,
+          51,
+          "DEPART"
+        ],
+        [
+          55,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je recherchais le trajet le plus pittoresque de bruyères à morlaix, par où passerais-je?\"",
+    {
+      "entities": [
+        [
+          52,
+          60,
+          "DEPART"
+        ],
+        [
+          63,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en direction de saint-martin-le-beau après avoir quitté vivy, quel itinéraire serait le plus pittoresque?\"",
+    {
+      "entities": [
+        [
+          57,
+          61,
+          "DEPART"
+        ],
+        [
+          17,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je vise argentan après mon départ de dammarie-les-lys. quel itinéraire me conseilles-tu?\"",
+    {
+      "entities": [
+        [
+          38,
+          54,
+          "DEPART"
+        ],
+        [
+          9,
+          17,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec chavenon comme destination depuis le thor, quel chemin serait le plus rapide?\"",
+    {
+      "entities": [
+        [
+          40,
+          47,
+          "DEPART"
+        ],
+        [
+          6,
+          14,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre issou et mertzwiller.\"",
+    {
+      "entities": [
+        [
+          41,
+          46,
+          "DEPART"
+        ],
+        [
+          50,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est sûr de voyager de le bousquet-d'orb à toulouse?\"",
+    {
+      "entities": [
+        [
+          36,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la voie la plus directe pour rejoindre veynes en partant de terrasson-lailledieu?\"",
+    {
+      "entities": [
+        [
+          72,
+          92,
+          "DEPART"
+        ],
+        [
+          51,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à fontenay-le-comte, par où devrais-je passer en quittant pers?\"",
+    {
+      "entities": [
+        [
+          76,
+          80,
+          "DEPART"
+        ],
+        [
+          20,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment est la circulation entre douai et épehy?\"",
+    {
+      "entities": [
+        [
+          34,
+          39,
+          "DEPART"
+        ],
+        [
+          43,
+          48,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec pont-du-château comme destination depuis montbartier, quel chemin serait le plus rapide?\"",
+    {
+      "entities": [
+        [
+          47,
+          58,
+          "DEPART"
+        ],
+        [
+          6,
+          21,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour mon voyage vers clayes-sous-bois (les) après devecey, quelle serait la meilleure direction?\"",
+    {
+      "entities": [
+        [
+          51,
+          58,
+          "DEPART"
+        ],
+        [
+          22,
+          44,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon but était de rejoindre etampes depuis pont-melvez, quel chemin emprunterais-je?\"",
+    {
+      "entities": [
+        [
+          46,
+          57,
+          "DEPART"
+        ],
+        [
+          31,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je me rendre de sausset-les-pins à orry-la-ville?\"",
+    {
+      "entities": [
+        [
+          30,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec l'intention d'atteindre cavignac, quelle serait ma route depuis dieppe?\"",
+    {
+      "entities": [
+        [
+          70,
+          76,
+          "DEPART"
+        ],
+        [
+          30,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des raccourcis entre groslay et vignory?\"",
+    {
+      "entities": [
+        [
+          31,
+          38,
+          "DEPART"
+        ],
+        [
+          42,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je tenais à passer par les lieux les plus emblématiques entre cantaron et abancourt, quel itinéraire me recommanderais-tu?\"",
+    {
+      "entities": [
+        [
+          66,
+          74,
+          "DEPART"
+        ],
+        [
+          78,
+          87,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi un itinéraire détaillé de plougonver à saint-mathurin-sur-loire.\"",
+    {
+      "entities": [
+        [
+          38,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          75,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en vue d'atteindre héricy, comment devrais-je quitter conflans-sainte-honorine?\"",
+    {
+      "entities": [
+        [
+          55,
+          79,
+          "DEPART"
+        ],
+        [
+          20,
+          26,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le meilleur moyen d'éviter les détours si je partais de blanquefort à saint-fons?\"",
+    {
+      "entities": [
+        [
+          69,
+          80,
+          "DEPART"
+        ],
+        [
+          83,
+          93,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je veux connaître le trajet vers sainte-colombe-sur-seine en partant de pornichet. des recommandations?\"",
+    {
+      "entities": [
+        [
+          73,
+          82,
+          "DEPART"
+        ],
+        [
+          34,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"de quelle manière puis-je aller de saint-pierre-d'aurillac à saint-martin-d'arrossa?\"",
+    {
+      "entities": [
+        [
+          36,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          84,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je me déplacer de louverné à meymac?\"",
+    {
+      "entities": [
+        [
+          32,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le chemin direct de chevrières à achiet-le-grand.\"",
+    {
+      "entities": [
+        [
+          29,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si libercourt est mon point d'arrivée après bruges, quel serait le parcours optimal?\"",
+    {
+      "entities": [
+        [
+          45,
+          51,
+          "DEPART"
+        ],
+        [
+          4,
+          14,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"identifie la route la plus rapide de buzy-darmont à arc-et-senans.\"",
+    {
+      "entities": [
+        [
+          38,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route emprunterais-tu si tu devais te rendre de nyer à panissage?\"",
+    {
+      "entities": [
+        [
+          56,
+          60,
+          "DEPART"
+        ],
+        [
+          63,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à saint-georges-de-mons, par où devrais-je passer en quittant saint-brice-sous-foret?\"",
+    {
+      "entities": [
+        [
+          80,
+          102,
+          "DEPART"
+        ],
+        [
+          20,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre aigle (l') et langogne.\"",
+    {
+      "entities": [
+        [
+          41,
+          51,
+          "DEPART"
+        ],
+        [
+          55,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le chemin pour aller de lesquin à trith-saint-léger?\"",
+    {
+      "entities": [
+        [
+          34,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le meilleur moyen d'éviter les détours si je partais de luxeuil-les-bains à sarrebourg?\"",
+    {
+      "entities": [
+        [
+          69,
+          86,
+          "DEPART"
+        ],
+        [
+          89,
+          99,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où mon trajet me mènerait de reichshoffen à asnieres-sur-seine, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          42,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          75,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin d'arriver sereinement à hirson en venant de salles-courbatiès, par où passer?\"",
+    {
+      "entities": [
+        [
+          50,
+          67,
+          "DEPART"
+        ],
+        [
+          30,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une aventure de avignon à garancières, par où commencer?\"",
+    {
+      "entities": [
+        [
+          38,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaitais voyager sans encombre de saint-armel à sallaumines, quelle route me proposerais-tu?\"",
+    {
+      "entities": [
+        [
+          43,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que le chemin de poliénas à saint-germain-sur-meuse est compliqué?\"",
+    {
+      "entities": [
+        [
+          25,
+          33,
+          "DEPART"
+        ],
+        [
+          36,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de me rendre à grandvilliers, quel chemin devrais-je emprunter depuis landerneau?\"",
+    {
+      "entities": [
+        [
+          76,
+          86,
+          "DEPART"
+        ],
+        [
+          21,
+          34,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je désirais un parcours sans tracas de digoin à beautiran, quelle voie prendrais-je?\"",
+    {
+      "entities": [
+        [
+          43,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un voyage vers crouy en provenance de valleiry, quelles directions me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          44,
+          52,
+          "DEPART"
+        ],
+        [
+          21,
+          26,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi pas à pas de saint-hilaire-les-places à arpajon.\"",
+    {
+      "entities": [
+        [
+          24,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il un itinéraire direct entre ruminghem et ailly-sur-noye?\"",
+    {
+      "entities": [
+        [
+          40,
+          49,
+          "DEPART"
+        ],
+        [
+          53,
+          67,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où je voyagerais de eygliers à saint-aunès, quelle serait la route la plus directe?\"",
+    {
+      "entities": [
+        [
+          33,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les meilleurs moyens de transport pour aller de crain à saint-jean-pied-de-port?\"",
+    {
+      "entities": [
+        [
+          60,
+          65,
+          "DEPART"
+        ],
+        [
+          68,
+          91,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est sûr de voyager de rouen à cavaillon?\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me dire le trajet de tiercelet à palaiseau?\"",
+    {
+      "entities": [
+        [
+          30,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où mon trajet me mènerait de lannemezan à lavaur, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          42,
+          52,
+          "DEPART"
+        ],
+        [
+          55,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre les options d'itinéraire de la chapelle-saint-ursin à isbergues.\"",
+    {
+      "entities": [
+        [
+          36,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          71,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je recherchais le trajet le plus pittoresque de valence à montlouis-sur-loire, par où passerais-je?\"",
+    {
+      "entities": [
+        [
+          52,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je souhaite me diriger vers wihr-au-val après avoir quitté paris. quelle route prendre?\"",
+    {
+      "entities": [
+        [
+          60,
+          65,
+          "DEPART"
+        ],
+        [
+          29,
+          40,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec puy-en-velay (le ) comme destination depuis liesle, quel chemin serait le plus rapide?\"",
+    {
+      "entities": [
+        [
+          50,
+          56,
+          "DEPART"
+        ],
+        [
+          6,
+          24,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des raccourcis entre réding et pierreville?\"",
+    {
+      "entities": [
+        [
+          31,
+          37,
+          "DEPART"
+        ],
+        [
+          41,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de me rendre à la voulte-sur-rhône, quel chemin devrais-je emprunter depuis saint-rambert-d'albon?\"",
+    {
+      "entities": [
+        [
+          82,
+          103,
+          "DEPART"
+        ],
+        [
+          21,
+          40,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des voies alternatives de osny à rocamadour?\"",
+    {
+      "entities": [
+        [
+          36,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une aventure de la celle-saint-avant à hangest-sur-somme, par où commencer?\"",
+    {
+      "entities": [
+        [
+          38,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          78,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne-moi les directions pour aller de bas-en-basset à montfort-le-gesnois.\"",
+    {
+      "entities": [
+        [
+          40,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          75,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment est la circulation entre auffay et langogne?\"",
+    {
+      "entities": [
+        [
+          34,
+          40,
+          "DEPART"
+        ],
+        [
+          44,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour arriver à marignane en laissant vouziers derrière moi, où devrais-je me diriger?\"",
+    {
+      "entities": [
+        [
+          38,
+          46,
+          "DEPART"
+        ],
+        [
+          16,
+          25,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas d'un voyage imminent de vern-sur-seiche à thann, quelles instructions suivrais-je?\"",
+    {
+      "entities": [
+        [
+          37,
+          52,
+          "DEPART"
+        ],
+        [
+          55,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des passages intéressants entre brebières et ytrac?\"",
+    {
+      "entities": [
+        [
+          42,
+          51,
+          "DEPART"
+        ],
+        [
+          55,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon but était de rejoindre hatrize depuis dol-de-bretagne, quel chemin emprunterais-je?\"",
+    {
+      "entities": [
+        [
+          46,
+          61,
+          "DEPART"
+        ],
+        [
+          31,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je vise verdun après mon départ de grandvilliers. quel itinéraire me conseilles-tu?\"",
+    {
+      "entities": [
+        [
+          36,
+          49,
+          "DEPART"
+        ],
+        [
+          9,
+          15,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des liaisons directes pour ambares-et-lagrave depuis baudemont?\"",
+    {
+      "entities": [
+        [
+          66,
+          75,
+          "DEPART"
+        ],
+        [
+          40,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne les voies principales de guéthary à bram.\"",
+    {
+      "entities": [
+        [
+          35,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les avantages de voyager de varennes-sur-allier à richwiller?\"",
+    {
+      "entities": [
+        [
+          40,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des obstacles sur la route entre les ormes et hagetmau?\"",
+    {
+      "entities": [
+        [
+          43,
+          52,
+          "DEPART"
+        ],
+        [
+          56,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le chemin direct de albens à polisot.\"",
+    {
+      "entities": [
+        [
+          29,
+          35,
+          "DEPART"
+        ],
+        [
+          38,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le moyen le plus rapide pour se rendre de nantes à peltre?\"",
+    {
+      "entities": [
+        [
+          52,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          67,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour aller à dommartin depuis dieppe, quel est le meilleur itinéraire?\"",
+    {
+      "entities": [
+        [
+          31,
+          37,
+          "DEPART"
+        ],
+        [
+          14,
+          23,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des raccourcis entre espira-de-l'agly et crest?\"",
+    {
+      "entities": [
+        [
+          31,
+          47,
+          "DEPART"
+        ],
+        [
+          51,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des voies alternatives de coucy-lès-eppes à rivarennes?\"",
+    {
+      "entities": [
+        [
+          36,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de parvenir à bordeaux, par où devrais-je passer en quittant mérenvielle?\"",
+    {
+      "entities": [
+        [
+          67,
+          78,
+          "DEPART"
+        ],
+        [
+          20,
+          28,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je veux explorer le chemin vers lyon après avoir quitté cercy-la-tour. par où commencer?\"",
+    {
+      "entities": [
+        [
+          57,
+          70,
+          "DEPART"
+        ],
+        [
+          33,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre saint-etienne-du-rouvray et penne-d'agenais.\"",
+    {
+      "entities": [
+        [
+          41,
+          65,
+          "DEPART"
+        ],
+        [
+          69,
+          84,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaite me rendre à lavaur après lannemezan, quel chemin serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          41,
+          51,
+          "DEPART"
+        ],
+        [
+          28,
+          34,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"mon désir est de parvenir à saint-andré-de-l'eure en quittant ludres. quelle direction prendre?\"",
+    {
+      "entities": [
+        [
+          63,
+          69,
+          "DEPART"
+        ],
+        [
+          29,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me conseiller sur le chemin à prendre entre les loges-en-josas et coyolles?\"",
+    {
+      "entities": [
+        [
+          57,
+          75,
+          "DEPART"
+        ],
+        [
+          79,
+          87,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dessine l'itinéraire entre saubusse et montauban.\"",
+    {
+      "entities": [
+        [
+          28,
+          36,
+          "DEPART"
+        ],
+        [
+          40,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route dois-je emprunter pour aller de metz à saint-julien-les-villas?\"",
+    {
+      "entities": [
+        [
+          46,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          76,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour arriver à monestier-de-clermont en laissant saint-cergues derrière moi, où devrais-je me diriger?\"",
+    {
+      "entities": [
+        [
+          50,
+          63,
+          "DEPART"
+        ],
+        [
+          16,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route emprunterais-tu si tu devais te rendre de charleville-mezieres à marcilly-sur-tille?\"",
+    {
+      "entities": [
+        [
+          56,
+          76,
+          "DEPART"
+        ],
+        [
+          79,
+          97,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les meilleurs moyens de transport pour aller de hoffen à sollies-pont?\"",
+    {
+      "entities": [
+        [
+          60,
+          66,
+          "DEPART"
+        ],
+        [
+          69,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"trace la meilleure voie entre valenciennes et corbenay.\"",
+    {
+      "entities": [
+        [
+          31,
+          43,
+          "DEPART"
+        ],
+        [
+          47,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je vise seclin après mon départ de aubrives. quel itinéraire me conseilles-tu?\"",
+    {
+      "entities": [
+        [
+          36,
+          44,
+          "DEPART"
+        ],
+        [
+          9,
+          15,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"liste les étapes pour se rendre de saint-armel à santenay.\"",
+    {
+      "entities": [
+        [
+          36,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fais-moi voir les différentes voies entre plouharnel et nouzonville.\"",
+    {
+      "entities": [
+        [
+          43,
+          53,
+          "DEPART"
+        ],
+        [
+          57,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je privilégiais la rapidité pour aller de saint-paul-de-varax à poissy, quel itinéraire me suggérerais-tu?\"",
+    {
+      "entities": [
+        [
+          46,
+          65,
+          "DEPART"
+        ],
+        [
+          68,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me montrer un plan pour saint-martin-le-beau à partir de saint-pierre-sur-dives?\"",
+    {
+      "entities": [
+        [
+          66,
+          88,
+          "DEPART"
+        ],
+        [
+          33,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si avignon est mon point d'arrivée après blanzay, quel serait le parcours optimal?\"",
+    {
+      "entities": [
+        [
+          42,
+          49,
+          "DEPART"
+        ],
+        [
+          4,
+          11,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des recommandations pour le voyage de brunoy à wambaix?\"",
+    {
+      "entities": [
+        [
+          48,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas d'un voyage imminent de marquillies à courlandon, quelles instructions suivrais-je?\"",
+    {
+      "entities": [
+        [
+          37,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où mon trajet me mènerait de peltre à tanus, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          42,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"présente-moi les étapes de boisset à saint-vit.\"",
+    {
+      "entities": [
+        [
+          28,
+          35,
+          "DEPART"
+        ],
+        [
+          38,
+          47,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"clarifie le chemin le plus sûr de sallanches à chocques.\"",
+    {
+      "entities": [
+        [
+          35,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec l'intention d'atteindre vergigny, quelle serait ma route depuis basse-ham?\"",
+    {
+      "entities": [
+        [
+          70,
+          79,
+          "DEPART"
+        ],
+        [
+          30,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle serait l'option la plus sûre si je décidais de me rendre de bessancourt à anzin?\"",
+    {
+      "entities": [
+        [
+          68,
+          79,
+          "DEPART"
+        ],
+        [
+          82,
+          87,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des passages intéressants entre veneux-les-sablons et blanzy?\"",
+    {
+      "entities": [
+        [
+          42,
+          60,
+          "DEPART"
+        ],
+        [
+          64,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"suggère une voie alternative de guichen à saint-maixent-l'école.\"",
+    {
+      "entities": [
+        [
+          33,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"de combien de temps aurais-je besoin pour aller de lons-le-saunier à ruffec?\"",
+    {
+      "entities": [
+        [
+          52,
+          67,
+          "DEPART"
+        ],
+        [
+          70,
+          76,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me suggérer un itinéraire de vendome à chaville?\"",
+    {
+      "entities": [
+        [
+          42,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'envisageais de me déplacer de cantin à lyon, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          36,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conseille-moi sur le parcours de mee-sur-seine (le ) à berre-l'etang.\"",
+    {
+      "entities": [
+        [
+          34,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin d'arriver sereinement à saubusse en venant de marigny, par où passer?\"",
+    {
+      "entities": [
+        [
+          52,
+          59,
+          "DEPART"
+        ],
+        [
+          30,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre ensuès-la-redonne et hericourt.\"",
+    {
+      "entities": [
+        [
+          41,
+          58,
+          "DEPART"
+        ],
+        [
+          62,
+          71,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi la meilleure route de épernon à le teil.\"",
+    {
+      "entities": [
+        [
+          34,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"recommande une route de bonnières-sur-seine à mionnay.\"",
+    {
+      "entities": [
+        [
+          25,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je choisissais le trajet le plus économique de monestier-de-clermont à la ferté-milon, quelles seraient mes options?\"",
+    {
+      "entities": [
+        [
+          51,
+          72,
+          "DEPART"
+        ],
+        [
+          75,
+          89,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas d'un voyage imminent de ricamarie (la ) à beaucaire, quelles instructions suivrais-je?\"",
+    {
+      "entities": [
+        [
+          37,
+          52,
+          "DEPART"
+        ],
+        [
+          55,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des liaisons directes pour bar-sur-seine depuis cercy-la-tour?\"",
+    {
+      "entities": [
+        [
+          61,
+          74,
+          "DEPART"
+        ],
+        [
+          40,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je choisissais le trajet le plus économique de fuveau à mansac, quelles seraient mes options?\"",
+    {
+      "entities": [
+        [
+          51,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le moyen le plus rapide pour se rendre de groslay à chapelle-sur-erdre (la )?\"",
+    {
+      "entities": [
+        [
+          52,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          86,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une aventure de marolles à saintes, par où commencer?\"",
+    {
+      "entities": [
+        [
+          38,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est compliqué de voyager de cavaillon à dommartin?\"",
+    {
+      "entities": [
+        [
+          42,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me conseiller sur le chemin à prendre entre lempdes-sur-allagnon et nice?\"",
+    {
+      "entities": [
+        [
+          57,
+          77,
+          "DEPART"
+        ],
+        [
+          81,
+          85,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je voulais éviter les embouteillages de la penne-sur-huveaune à chelles, quel itinéraire choisirais-je?\"",
+    {
+      "entities": [
+        [
+          44,
+          65,
+          "DEPART"
+        ],
+        [
+          68,
+          75,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est compliqué de voyager de antony à pamiers?\"",
+    {
+      "entities": [
+        [
+          42,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour parvenir à seltz en commençant par la rochefoucauld, quelle route privilégier?\"",
+    {
+      "entities": [
+        [
+          41,
+          57,
+          "DEPART"
+        ],
+        [
+          17,
+          22,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je transiter de ham-en-artois à blanzy?\"",
+    {
+      "entities": [
+        [
+          30,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"eclaire-moi sur les routes possibles de longueville-sur-scie à la rochefoucauld.\"",
+    {
+      "entities": [
+        [
+          41,
+          61,
+          "DEPART"
+        ],
+        [
+          64,
+          80,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une aventure de marignier à la tour-du-pin, par où commencer?\"",
+    {
+      "entities": [
+        [
+          38,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je voudrais me rendre à amifontaine après mon départ de levallois-perret. quelle route choisir?\"",
+    {
+      "entities": [
+        [
+          57,
+          73,
+          "DEPART"
+        ],
+        [
+          25,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un voyage vers corbeilles en provenance de saintes, quelles directions me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          49,
+          56,
+          "DEPART"
+        ],
+        [
+          21,
+          31,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une escapade de la guierche à deauville, quel serait le chemin le plus agréable?\"",
+    {
+      "entities": [
+        [
+          38,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je désirais un parcours sans tracas de porta à baume-les-dames, quelle voie prendrais-je?\"",
+    {
+      "entities": [
+        [
+          43,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je partais de montmélian pour mouy, quelle route devrais-je prendre?\"",
+    {
+      "entities": [
+        [
+          18,
+          28,
+          "DEPART"
+        ],
+        [
+          34,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est l'option la plus confortable pour se rendre de fondamente à saincaize-meauce?\"",
+    {
+      "entities": [
+        [
+          59,
+          69,
+          "DEPART"
+        ],
+        [
+          72,
+          88,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel parcours choisirais-je si je recherchais l'efficacité pour aller de fitilieu à argenton-sur-creuse?\"",
+    {
+      "entities": [
+        [
+          74,
+          82,
+          "DEPART"
+        ],
+        [
+          85,
+          104,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des obstacles sur la route entre bétaille et bessines-sur-gartempe?\"",
+    {
+      "entities": [
+        [
+          43,
+          51,
+          "DEPART"
+        ],
+        [
+          55,
+          76,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me dire le trajet de pomas à hoerdt?\"",
+    {
+      "entities": [
+        [
+          30,
+          35,
+          "DEPART"
+        ],
+        [
+          38,
+          44,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'envisageais un détour par le bousquet-d'orb depuis noizay, quel parcours serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          57,
+          63,
+          "DEPART"
+        ],
+        [
+          32,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi la meilleure route de montdidier à chasse-sur-rhône.\"",
+    {
+      "entities": [
+        [
+          34,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où je voyagerais de bellac à santeuil, quelle serait la route la plus directe?\"",
+    {
+      "entities": [
+        [
+          33,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route choisirais-tu si tu étais à ma place et que tu allais de plourivo à prouvy?\"",
+    {
+      "entities": [
+        [
+          71,
+          79,
+          "DEPART"
+        ],
+        [
+          82,
+          88,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route dois-je emprunter pour aller de lavaufranche à saint-valery-en-caux?\"",
+    {
+      "entities": [
+        [
+          46,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon projet était d'aller de pimprez à pleyber-christ, quelles étapes devrais-je suivre?\"",
+    {
+      "entities": [
+        [
+          32,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route dois-je emprunter pour aller de montrond-les-bains à viry?\"",
+    {
+      "entities": [
+        [
+          46,
+          64,
+          "DEPART"
+        ],
+        [
+          67,
+          71,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur les alternatives pour aller de valergues à dommary-baroncourt.\"",
+    {
+      "entities": [
+        [
+          48,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          78,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je voulais éviter les embouteillages de istres à nice, quel itinéraire choisirais-je?\"",
+    {
+      "entities": [
+        [
+          44,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi pas à pas de neuville-aux-bois à cheniménil.\"",
+    {
+      "entities": [
+        [
+          24,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si lozanne est mon point d'arrivée après elne, quel serait le parcours optimal?\"",
+    {
+      "entities": [
+        [
+          42,
+          46,
+          "DEPART"
+        ],
+        [
+          4,
+          11,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne l'itinéraire optimal entre paris et labège.\"",
+    {
+      "entities": [
+        [
+          37,
+          42,
+          "DEPART"
+        ],
+        [
+          46,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi la meilleure route de juvisy-sur-orge à saint-julien-en-genevois.\"",
+    {
+      "entities": [
+        [
+          34,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          76,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des chemins à éviter entre chaingy et plouigneau?\"",
+    {
+      "entities": [
+        [
+          37,
+          44,
+          "DEPART"
+        ],
+        [
+          48,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le chemin pour aller de ensuès-la-redonne à serdinya?\"",
+    {
+      "entities": [
+        [
+          34,
+          51,
+          "DEPART"
+        ],
+        [
+          54,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pourrais-tu me conseiller sur le chemin à prendre entre gièvres et béning-lès-saint-avold?\"",
+    {
+      "entities": [
+        [
+          57,
+          64,
+          "DEPART"
+        ],
+        [
+          68,
+          90,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la voie la plus directe pour rejoindre labarthe-inard en partant de kuntzig?\"",
+    {
+      "entities": [
+        [
+          80,
+          87,
+          "DEPART"
+        ],
+        [
+          51,
+          65,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"renseigne-moi sur les raccourcis entre fontenay-le-fleury et issé.\"",
+    {
+      "entities": [
+        [
+          40,
+          58,
+          "DEPART"
+        ],
+        [
+          62,
+          66,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je planifiais un voyage de busigny à saint-médard-d'eyrans, quel itinéraire me suggérerais-tu?\"",
+    {
+      "entities": [
+        [
+          31,
+          38,
+          "DEPART"
+        ],
+        [
+          41,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'un déplacement de aubigny-sur-nère à blanzy, par quelle voie devrais-je opter?\"",
+    {
+      "entities": [
+        [
+          40,
+          56,
+          "DEPART"
+        ],
+        [
+          59,
+          65,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"j'ai prévu de me rendre à sarrebourg en quittant wasquehal. comment m'y prendre?\"",
+    {
+      "entities": [
+        [
+          50,
+          59,
+          "DEPART"
+        ],
+        [
+          27,
+          37,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je projette de me rendre à cusset après avoir quitté la ferté-saint-aubin. des conseils?\"",
+    {
+      "entities": [
+        [
+          54,
+          74,
+          "DEPART"
+        ],
+        [
+          28,
+          34,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle est la distance entre faulquemont et le cellier?\"",
+    {
+      "entities": [
+        [
+          30,
+          41,
+          "DEPART"
+        ],
+        [
+          45,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"liste les étapes pour se rendre de joeuf à gourdan-polignan.\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je voulais un voyage serein de machecoul à grandvillars, quel chemin privilégierais-je?\"",
+    {
+      "entities": [
+        [
+          35,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec voves comme destination depuis pleyber-christ, quel chemin serait le plus rapide?\"",
+    {
+      "entities": [
+        [
+          37,
+          51,
+          "DEPART"
+        ],
+        [
+          6,
+          11,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu m'indiquer la route pour bonnard depuis saint-pierre-quiberon?\"",
+    {
+      "entities": [
+        [
+          49,
+          70,
+          "DEPART"
+        ],
+        [
+          34,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le chemin pour aller de montfort-le-gesnois à houilles?\"",
+    {
+      "entities": [
+        [
+          34,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel est le trajet le plus court de avallon à saint-nazaire?\"",
+    {
+      "entities": [
+        [
+          37,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le chemin direct de sainghin-en-weppes à vaux-en-bugey.\"",
+    {
+      "entities": [
+        [
+          29,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les arrêts entre plouharnel et marnes-la-coquette?\"",
+    {
+      "entities": [
+        [
+          29,
+          39,
+          "DEPART"
+        ],
+        [
+          43,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des liaisons moins fréquentées entre bobigny et bassens?\"",
+    {
+      "entities": [
+        [
+          50,
+          57,
+          "DEPART"
+        ],
+        [
+          61,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne un aperçu des options de trajet entre saint-pierre-du-vauvray et saint-sébastien.\"",
+    {
+      "entities": [
+        [
+          45,
+          68,
+          "DEPART"
+        ],
+        [
+          72,
+          87,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je souhaite découvrir le chemin vers bruz en laissant plourivo derrière moi. où me diriger?\"",
+    {
+      "entities": [
+        [
+          55,
+          63,
+          "DEPART"
+        ],
+        [
+          38,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour un trajet confortable vers maule en partant de conlie, quel parcours recommandes-tu?\"",
+    {
+      "entities": [
+        [
+          53,
+          59,
+          "DEPART"
+        ],
+        [
+          33,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de guillaucourt pour martigné-ferchaud, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          48,
+          "DEPART"
+        ],
+        [
+          54,
+          71,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conseille-moi sur le parcours de bourges à la verpillière.\"",
+    {
+      "entities": [
+        [
+          34,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je voulais un voyage serein de thézy-glimont à saint-cyr-sur-loire, quel chemin privilégierais-je?\"",
+    {
+      "entities": [
+        [
+          35,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que le chemin de dombasle-sur-meurthe à gerzat est compliqué?\"",
+    {
+      "entities": [
+        [
+          25,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          54,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel parcours choisirais-je si je recherchais l'efficacité pour aller de barr à labruguière?\"",
+    {
+      "entities": [
+        [
+          74,
+          78,
+          "DEPART"
+        ],
+        [
+          81,
+          92,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je souhaite me rendre à blaisy-bas après aix-en-provence, quel chemin serait le plus adapté?\"",
+    {
+      "entities": [
+        [
+          45,
+          60,
+          "DEPART"
+        ],
+        [
+          28,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"détaille le parcours entre la possonnière et pontivy.\"",
+    {
+      "entities": [
+        [
+          28,
+          42,
+          "DEPART"
+        ],
+        [
+          46,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce possible de voyager directement de freistroff à castillon-la-bataille?\"",
+    {
+      "entities": [
+        [
+          43,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          77,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route dois-je emprunter pour aller de lyon à cousance?\"",
+    {
+      "entities": [
+        [
+          46,
+          50,
+          "DEPART"
+        ],
+        [
+          53,
+          61,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse d'une première visite de amiens à nançois-sur-ornain, quelle serait la voie la plus instructive?\"",
+    {
+      "entities": [
+        [
+          43,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des recommandations pour le voyage de ebblinghem à rouessé-vassé?\"",
+    {
+      "entities": [
+        [
+          48,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je recherchais le trajet le plus pittoresque de saint-armel à jouy-en-josas, par où passerais-je?\"",
+    {
+      "entities": [
+        [
+          52,
+          63,
+          "DEPART"
+        ],
+        [
+          66,
+          79,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des passages intéressants entre garchizy et darcey?\"",
+    {
+      "entities": [
+        [
+          42,
+          50,
+          "DEPART"
+        ],
+        [
+          54,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité où je me rendrais de tincques à bischoffsheim, comment m'y prendrais-je?\"",
+    {
+      "entities": [
+        [
+          41,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          65,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon objectif est d'arriver à valenciennes, comment devrais-je partir de la celle-saint-avant?\"",
+    {
+      "entities": [
+        [
+          76,
+          96,
+          "DEPART"
+        ],
+        [
+          33,
+          45,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"recommande une route de marcilly-sur-tille à étalans.\"",
+    {
+      "entities": [
+        [
+          25,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me guider sur l'itinéraire de luttenbach-près-munster à rosporden?\"",
+    {
+      "entities": [
+        [
+          39,
+          62,
+          "DEPART"
+        ],
+        [
+          65,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que le chemin de malause à laveissière est compliqué?\"",
+    {
+      "entities": [
+        [
+          25,
+          32,
+          "DEPART"
+        ],
+        [
+          35,
+          46,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi de montbarrey à la bernerie-en-retz.\"",
+    {
+      "entities": [
+        [
+          14,
+          24,
+          "DEPART"
+        ],
+        [
+          27,
+          46,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des restrictions sur la route de courçay à garges-les-gonesse?\"",
+    {
+      "entities": [
+        [
+          46,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          74,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel serait le trajet le plus rapide si je me dirigeais de allassac vers boissy-l'aillerie?\"",
+    {
+      "entities": [
+        [
+          60,
+          68,
+          "DEPART"
+        ],
+        [
+          74,
+          91,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que le chemin de beauvoir-sur-niort à thiers est compliqué?\"",
+    {
+      "entities": [
+        [
+          25,
+          43,
+          "DEPART"
+        ],
+        [
+          46,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me dirige vers entrains-sur-nohain en venant de saint-herblain. quel itinéraire me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          52,
+          66,
+          "DEPART"
+        ],
+        [
+          19,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"de combien de temps aurais-je besoin pour aller de gilly-lès-cîteaux à ailly-sur-somme?\"",
+    {
+      "entities": [
+        [
+          52,
+          69,
+          "DEPART"
+        ],
+        [
+          72,
+          87,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en vue d'atteindre sarrebourg, comment devrais-je quitter arques-la-bataille?\"",
+    {
+      "entities": [
+        [
+          59,
+          77,
+          "DEPART"
+        ],
+        [
+          20,
+          30,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que c'est compliqué de voyager de longué-jumelles à esclanèdes?\"",
+    {
+      "entities": [
+        [
+          42,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          70,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me demande quelle est la meilleure voie vers manois depuis louvroil. des idées?\"",
+    {
+      "entities": [
+        [
+          63,
+          71,
+          "DEPART"
+        ],
+        [
+          49,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"identifie la route la plus rapide de nevers à longwy.\"",
+    {
+      "entities": [
+        [
+          38,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fournis-moi un plan détaillé de ligny-en-barrois à nomain.\"",
+    {
+      "entities": [
+        [
+          33,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi la meilleure route de strasbourg à pons.\"",
+    {
+      "entities": [
+        [
+          34,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de me rendre à grigny, quel chemin devrais-je emprunter depuis chaville?\"",
+    {
+      "entities": [
+        [
+          69,
+          77,
+          "DEPART"
+        ],
+        [
+          21,
+          27,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me dirige vers oloron-sainte-marie en venant de caulnes. quel itinéraire me suggères-tu?\"",
+    {
+      "entities": [
+        [
+          52,
+          59,
+          "DEPART"
+        ],
+        [
+          19,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"guide-moi de voves à saint-jean-de-sauves.\"",
+    {
+      "entities": [
+        [
+          14,
+          19,
+          "DEPART"
+        ],
+        [
+          22,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je voulais éviter les embouteillages de la chapelle-sur-loire à passy, quel itinéraire choisirais-je?\"",
+    {
+      "entities": [
+        [
+          44,
+          65,
+          "DEPART"
+        ],
+        [
+          68,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre les options d'itinéraire de villeneuve-saint-georges à luzarches.\"",
+    {
+      "entities": [
+        [
+          36,
+          60,
+          "DEPART"
+        ],
+        [
+          63,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"renseigne-moi sur les raccourcis entre luzarches et moulins.\"",
+    {
+      "entities": [
+        [
+          40,
+          49,
+          "DEPART"
+        ],
+        [
+          53,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour parvenir à marseille en commençant par vaas, quelle route privilégier?\"",
+    {
+      "entities": [
+        [
+          45,
+          49,
+          "DEPART"
+        ],
+        [
+          17,
+          26,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des raccourcis entre moirans et rousies?\"",
+    {
+      "entities": [
+        [
+          31,
+          38,
+          "DEPART"
+        ],
+        [
+          42,
+          49,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de seugy pour nérac, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          47,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je voudrais me rendre à espira-de-l'agly après mon départ de roinville. quelle route choisir?\"",
+    {
+      "entities": [
+        [
+          62,
+          71,
+          "DEPART"
+        ],
+        [
+          25,
+          41,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre plourivo et tendu.\"",
+    {
+      "entities": [
+        [
+          41,
+          49,
+          "DEPART"
+        ],
+        [
+          53,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de me rendre à keskastel, quel chemin devrais-je emprunter depuis figeac?\"",
+    {
+      "entities": [
+        [
+          72,
+          78,
+          "DEPART"
+        ],
+        [
+          21,
+          30,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité où je me rendrais de aspres-sur-buëch à gien, comment m'y prendrais-je?\"",
+    {
+      "entities": [
+        [
+          41,
+          57,
+          "DEPART"
+        ],
+        [
+          60,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre les options d'itinéraire de verdun-sur-le-doubs à seltz.\"",
+    {
+      "entities": [
+        [
+          36,
+          55,
+          "DEPART"
+        ],
+        [
+          58,
+          63,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"pour aller à longvic depuis paris, quel est le meilleur itinéraire?\"",
+    {
+      "entities": [
+        [
+          29,
+          34,
+          "DEPART"
+        ],
+        [
+          14,
+          21,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si garnay était ma destination depuis lille, quel chemin me conseillerais-tu?\"",
+    {
+      "entities": [
+        [
+          39,
+          44,
+          "DEPART"
+        ],
+        [
+          4,
+          10,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"j'ai prévu de me rendre à reze en quittant cernay. comment m'y prendre?\"",
+    {
+      "entities": [
+        [
+          44,
+          50,
+          "DEPART"
+        ],
+        [
+          27,
+          31,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"peux-tu me guider sur l'itinéraire de la ferté-alais à sartrouville?\"",
+    {
+      "entities": [
+        [
+          39,
+          53,
+          "DEPART"
+        ],
+        [
+          56,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que le chemin de vicq-sur-breuilh à saint-cloud est compliqué?\"",
+    {
+      "entities": [
+        [
+          25,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"existe-t-il des liaisons moins fréquentées entre boussay et saint-rambert-en-bugey?\"",
+    {
+      "entities": [
+        [
+          50,
+          57,
+          "DEPART"
+        ],
+        [
+          61,
+          83,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je vise bolbec après mon départ de juvisy-sur-orge. quel itinéraire me conseilles-tu?\"",
+    {
+      "entities": [
+        [
+          36,
+          51,
+          "DEPART"
+        ],
+        [
+          9,
+          15,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conseille-moi sur le parcours de cavignac à lamanon.\"",
+    {
+      "entities": [
+        [
+          34,
+          42,
+          "DEPART"
+        ],
+        [
+          45,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je planifiais un voyage de marseillan à albi, quel itinéraire me suggérerais-tu?\"",
+    {
+      "entities": [
+        [
+          31,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          48,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin d'arriver sereinement à montoire-sur-le-loir en venant de lunas, par où passer?\"",
+    {
+      "entities": [
+        [
+          64,
+          69,
+          "DEPART"
+        ],
+        [
+          30,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je vise cavignac après mon départ de valmy. quel itinéraire me conseilles-tu?\"",
+    {
+      "entities": [
+        [
+          38,
+          43,
+          "DEPART"
+        ],
+        [
+          9,
+          17,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité où je me rendrais de varennes-sur-seine à étang-sur-arroux, comment m'y prendrais-je?\"",
+    {
+      "entities": [
+        [
+          41,
+          59,
+          "DEPART"
+        ],
+        [
+          62,
+          78,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je voudrais me rendre à bords après mon départ de tassin-la-demi-lune. quelle route choisir?\"",
+    {
+      "entities": [
+        [
+          51,
+          70,
+          "DEPART"
+        ],
+        [
+          25,
+          30,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité où je me rendrais de folligny à sommery, comment m'y prendrais-je?\"",
+    {
+      "entities": [
+        [
+          41,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des raccourcis entre saint-germain-en-laye et roquefort?\"",
+    {
+      "entities": [
+        [
+          31,
+          52,
+          "DEPART"
+        ],
+        [
+          56,
+          65,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de le genest-saint-isle pour mortagne-du-nord, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          56,
+          "DEPART"
+        ],
+        [
+          62,
+          78,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre les options d'itinéraire de lille à saulnes.\"",
+    {
+      "entities": [
+        [
+          36,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          51,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"souligne l'itinéraire optimal entre tournemire et bavay.\"",
+    {
+      "entities": [
+        [
+          37,
+          47,
+          "DEPART"
+        ],
+        [
+          51,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je projette de me rendre à lille après avoir quitté coutras. des conseils?\"",
+    {
+      "entities": [
+        [
+          53,
+          60,
+          "DEPART"
+        ],
+        [
+          28,
+          33,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce loin pour aller de chinon à bricon?\"",
+    {
+      "entities": [
+        [
+          27,
+          33,
+          "DEPART"
+        ],
+        [
+          36,
+          42,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"est-ce que le chemin de maisons-laffitte à machecoul est compliqué?\"",
+    {
+      "entities": [
+        [
+          25,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin d'arriver sereinement à dissay en venant de guichen, par où passer?\"",
+    {
+      "entities": [
+        [
+          50,
+          57,
+          "DEPART"
+        ],
+        [
+          30,
+          36,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"explique-moi la meilleure option pour aller de feyzin à marcq-en-baroeul.\"",
+    {
+      "entities": [
+        [
+          48,
+          54,
+          "DEPART"
+        ],
+        [
+          57,
+          73,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'hypothèse où je partirais de milhac-d'auberoche à elne, quel chemin me recommanderais-tu?\"",
+    {
+      "entities": [
+        [
+          37,
+          55,
+          "DEPART"
+        ],
+        [
+          58,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"illustrate le chemin à suivre de rolleville à athis-mons.\"",
+    {
+      "entities": [
+        [
+          34,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle route choisirais-tu si tu étais à ma place et que tu allais de chateaubriant à plaisir?\"",
+    {
+      "entities": [
+        [
+          71,
+          84,
+          "DEPART"
+        ],
+        [
+          87,
+          94,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne un aperçu des options de trajet entre recquignies et saint-chéron.\"",
+    {
+      "entities": [
+        [
+          45,
+          56,
+          "DEPART"
+        ],
+        [
+          60,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"précise la voie à emprunter de baigts-de-béarn à miramas.\"",
+    {
+      "entities": [
+        [
+          32,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"donne un aperçu des options de trajet entre saint-aubin-des-landes et labergement-sainte-marie.\"",
+    {
+      "entities": [
+        [
+          45,
+          67,
+          "DEPART"
+        ],
+        [
+          71,
+          95,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité d'une escapade de précy-sur-oise à nonancourt, quel serait le chemin le plus agréable?\"",
+    {
+      "entities": [
+        [
+          38,
+          52,
+          "DEPART"
+        ],
+        [
+          55,
+          65,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quels sont les meilleurs moyens de transport pour aller de coudekerque-branche à steinbourg?\"",
+    {
+      "entities": [
+        [
+          60,
+          79,
+          "DEPART"
+        ],
+        [
+          82,
+          92,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des voies alternatives de tain-l'hermitage à apach?\"",
+    {
+      "entities": [
+        [
+          36,
+          52,
+          "DEPART"
+        ],
+        [
+          55,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon but était de rejoindre cavaillon depuis chavenon, quel chemin emprunterais-je?\"",
+    {
+      "entities": [
+        [
+          48,
+          56,
+          "DEPART"
+        ],
+        [
+          31,
+          40,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi un itinéraire détaillé de bollene à écuisses.\"",
+    {
+      "entities": [
+        [
+          38,
+          45,
+          "DEPART"
+        ],
+        [
+          48,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en quête du chemin vers eymoutiers en laissant derrière moi sierck-les-bains, où devrais-je me diriger?\"",
+    {
+      "entities": [
+        [
+          61,
+          77,
+          "DEPART"
+        ],
+        [
+          25,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel parcours choisirais-je si je recherchais l'efficacité pour aller de saint-pol-sur-ternoise à coussey?\"",
+    {
+      "entities": [
+        [
+          74,
+          96,
+          "DEPART"
+        ],
+        [
+          99,
+          106,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de montmélian pour matzenheim, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          46,
+          "DEPART"
+        ],
+        [
+          52,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"représente graphiquement la route entre guérigny et le molay-littry.\"",
+    {
+      "entities": [
+        [
+          41,
+          49,
+          "DEPART"
+        ],
+        [
+          53,
+          68,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"trace la meilleure voie entre saint-bonnet-de-montauroux et sainte-colombe-sur-seine.\"",
+    {
+      "entities": [
+        [
+          31,
+          57,
+          "DEPART"
+        ],
+        [
+          61,
+          85,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"afin de me rendre à aime, quel chemin devrais-je emprunter depuis marsac-sur-l'isle?\"",
+    {
+      "entities": [
+        [
+          67,
+          84,
+          "DEPART"
+        ],
+        [
+          21,
+          25,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quelle serait mon option si je voulais un itinéraire direct de cusset à bazarnes?\"",
+    {
+      "entities": [
+        [
+          64,
+          70,
+          "DEPART"
+        ],
+        [
+          73,
+          81,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"représente graphiquement la route entre grasse et dreux.\"",
+    {
+      "entities": [
+        [
+          41,
+          47,
+          "DEPART"
+        ],
+        [
+          51,
+          56,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"quel parcours choisirais-je si je recherchais l'efficacité pour aller de chamonix-mont-blanc à mondelange?\"",
+    {
+      "entities": [
+        [
+          74,
+          93,
+          "DEPART"
+        ],
+        [
+          96,
+          106,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"démontre la voie la plus efficace entre ceaux-en-couhé et nonant-le-pin.\"",
+    {
+      "entities": [
+        [
+          41,
+          55,
+          "DEPART"
+        ],
+        [
+          59,
+          72,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je vise provenchères-sur-fave après mon départ de viroflay. quel itinéraire me conseilles-tu?\"",
+    {
+      "entities": [
+        [
+          51,
+          59,
+          "DEPART"
+        ],
+        [
+          9,
+          30,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où je voyagerais de fourchambault à arques, quelle serait la route la plus directe?\"",
+    {
+      "entities": [
+        [
+          33,
+          46,
+          "DEPART"
+        ],
+        [
+          49,
+          55,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"conseille-moi sur les itinéraires de négrondes à pommeuse.\"",
+    {
+      "entities": [
+        [
+          38,
+          47,
+          "DEPART"
+        ],
+        [
+          50,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des recommandations pour le voyage de lizy-sur-ourcq à le molay-littry?\"",
+    {
+      "entities": [
+        [
+          48,
+          62,
+          "DEPART"
+        ],
+        [
+          65,
+          80,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"affiche le trajet optimal de roeulx à saint-ouen-l'aumone.\"",
+    {
+      "entities": [
+        [
+          30,
+          36,
+          "DEPART"
+        ],
+        [
+          39,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en vue d'atteindre nort-sur-erdre, comment devrais-je quitter bologne?\"",
+    {
+      "entities": [
+        [
+          63,
+          70,
+          "DEPART"
+        ],
+        [
+          20,
+          34,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si je me déplaçais de busigny à morre, quel serait le parcours le moins encombré?\"",
+    {
+      "entities": [
+        [
+          23,
+          30,
+          "DEPART"
+        ],
+        [
+          33,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si j'optais pour un voyage de beaune-la-rolande à rethel, quelles directions suivrais-je?\"",
+    {
+      "entities": [
+        [
+          31,
+          48,
+          "DEPART"
+        ],
+        [
+          51,
+          57,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans l'éventualité où je me rendrais de mer à nomain, comment m'y prendrais-je?\"",
+    {
+      "entities": [
+        [
+          41,
+          44,
+          "DEPART"
+        ],
+        [
+          47,
+          53,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"informe-moi sur la voie la plus directe de mende à chambly.\"",
+    {
+      "entities": [
+        [
+          44,
+          49,
+          "DEPART"
+        ],
+        [
+          52,
+          59,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"comment puis-je transiter de quincieux à louargat?\"",
+    {
+      "entities": [
+        [
+          30,
+          39,
+          "DEPART"
+        ],
+        [
+          42,
+          50,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en quête du chemin vers drusenheim en laissant derrière moi saint-cyprien, où devrais-je me diriger?\"",
+    {
+      "entities": [
+        [
+          61,
+          74,
+          "DEPART"
+        ],
+        [
+          25,
+          35,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"montre-moi la meilleure route de marcilly-sur-tille à les ormes.\"",
+    {
+      "entities": [
+        [
+          34,
+          52,
+          "DEPART"
+        ],
+        [
+          55,
+          64,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"en direction de olette après avoir quitté montigny-sur-loing, quel itinéraire serait le plus pittoresque?\"",
+    {
+      "entities": [
+        [
+          43,
+          61,
+          "DEPART"
+        ],
+        [
+          17,
+          23,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"j'ai prévu de me rendre à charmes en quittant clérac. comment m'y prendre?\"",
+    {
+      "entities": [
+        [
+          47,
+          53,
+          "DEPART"
+        ],
+        [
+          27,
+          34,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si jamais je décidais de partir de marseille pour villemomble, quelle serait la meilleure voie?\"",
+    {
+      "entities": [
+        [
+          36,
+          45,
+          "DEPART"
+        ],
+        [
+          51,
+          62,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"décrit la voie la plus pittoresque de chamonix-mont-blanc à chevilly.\"",
+    {
+      "entities": [
+        [
+          39,
+          58,
+          "DEPART"
+        ],
+        [
+          61,
+          69,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"fournis-moi un plan détaillé de montmédy à eaubonne.\"",
+    {
+      "entities": [
+        [
+          33,
+          41,
+          "DEPART"
+        ],
+        [
+          44,
+          52,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"avec aigues-vives comme destination depuis chamonix-mont-blanc, quel chemin serait le plus rapide?\"",
+    {
+      "entities": [
+        [
+          44,
+          63,
+          "DEPART"
+        ],
+        [
+          6,
+          18,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"y a-t-il des recommandations pour le voyage de ygos-saint-saturnin à siorac-en-périgord?\"",
+    {
+      "entities": [
+        [
+          48,
+          67,
+          "DEPART"
+        ],
+        [
+          70,
+          88,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je me demande comment rejoindre nieul après avoir laissé vanves. des idées?\"",
+    {
+      "entities": [
+        [
+          58,
+          64,
+          "DEPART"
+        ],
+        [
+          33,
+          38,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"dans le cas où mon trajet me mènerait de la croix-en-touraine à ars-sur-moselle, par où devrais-je passer?\"",
+    {
+      "entities": [
+        [
+          42,
+          62,
+          "DEPART"
+        ],
+        [
+          65,
+          80,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je voudrais me rendre à pléchâtel après mon départ de caffiers. quelle route choisir?\"",
+    {
+      "entities": [
+        [
+          55,
+          63,
+          "DEPART"
+        ],
+        [
+          25,
+          34,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"je cherche la meilleure voie pour saint-pourçain-sur-sioule en quittant écouflant. des suggestions?\"",
+    {
+      "entities": [
+        [
+          73,
+          82,
+          "DEPART"
+        ],
+        [
+          35,
+          60,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ],
+  [
+    "\"si mon projet était d'aller de écuisses à bogny-sur-meuse, quelles étapes devrais-je suivre?\"",
+    {
+      "entities": [
+        [
+          32,
+          40,
+          "DEPART"
+        ],
+        [
+          43,
+          58,
+          "ARRIVEE"
+        ]
+      ]
+    }
+  ]
+]

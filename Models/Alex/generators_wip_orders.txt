@@ -1,0 +1,97 @@
+d'accord, alors pour créer le dataset j'ai 5 fichiers différents qui sont des types de phrases différentes. 
+
+Par exemple : 
+
+- fichier 1 : 40 phrases différents qui sont des questions. 
+""Comment puis-je me rendre de {départ} à {arrivée}?"
+"Quel est le chemin pour aller de {départ} à {arrivée}?""
+
+Fichier 2 : 40 phrases différents qui sont de types impératives : 
+""Indique-moi la route de {départ} à {arrivée}."
+"Guide-moi de {départ} à {arrivée}."
+
+L'idée est que pour chacun des fichiers, c'est de créer un script python, qui va générer 2500 phrases à partir des patterns de chase fichier. 
+
+Donc pour les phrases de type interrogation, créer moi un script python qui va : 
+
+- chercher les patterns de phrases qui sont des questions dans le chemin suivant : "../../src/phrases_questions.txt"
+- chercher la liste de gares qui est un fichier csv dans le chemin : "../../src/liste-des-gares.csv"
+- le script devra aller prendre deux communes au hasard dans le fichier csv dans la colonne "COMMUNE"
+- Ces deux communes récupérées devront être insérées dans la phrase qui est une question à la place des "balises" {départ} et {arrivée} : exemple Comment puis-je me rendre de {départ} à {arrivée}
+- Les deux communes récupérées doivent être absolument différentes 
+- Le script doit générer 2500 phrases
+- il doit parser le fichier 'phrases_question.txt' de haut en bas, et une fois arrivé en bas du fichier, la 40 ème phrase, il recommence depuis le début et ainsi de suite jusqu'à produire 2500 phrases.
+
+Ne me donne pas le code tout de suite. 
+Dis moi juste ce que tu penses de mon idée et si c'est bien. 
+
+Le script est censée créer un fichier de sortie nommé : 'valid_question.txt'
+Chemin de sortie : "../res"
+
+Je me demande si je dois étiquetter ces phrases comme valide ? 
+Dois-je aussi dans ces phrases de sortie, qui seront le dataset final, étiqueter la ville de départ et d'arrivée ? 
+Ce dataset servira uniquement pour l'entrainement de la classification avec CamemBERT. 
+Quel fichier de sortie dois-je faire pour l'entrainement de camemBERT ?
+
+----------------------------------------------------------------------------------------------------------------------------------
+ok alors, créeons pour le moment 2500 phrases. 
+je te rapeller l'idée : 
+
+Par exemple : 
+
+- fichier 1 : 40 phrases différents qui sont des questions. 
+""Comment puis-je me rendre de {départ} à {arrivée}?"
+"Quel est le chemin pour aller de {départ} à {arrivée}?""
+
+Fichier 2 : 40 phrases différents qui sont de types conditionnelles : 
+Si je souhaitais voyager sans encombre de {départ} à {arrivée}, quelle route me proposerais-tu?
+
+L'idée est que pour chacun des fichiers, c'est de créer un script python, qui va générer 2500 phrases à partir des patterns de chase fichier. 
+
+Donc pour les phrases de type interrogation, créer moi un script python qui va : 
+
+- chercher les patterns de phrases qui sont des questions dans le chemin suivant : "../../src/phrases_conditionnal.txt"
+- chercher la liste de gares qui est un fichier csv dans le chemin : "../../src/liste-des-gares.csv"
+- le script devra aller prendre deux communes au hasard dans le fichier csv dans la colonne "COMMUNE"
+- Ces deux communes récupérées devront être insérées dans la phrase qui est une question à la place des "balises" {départ} et {arrivée} : exemple Comment puis-je me rendre de {départ} à {arrivée}
+- Les deux communes récupérées doivent être absolument différentes 
+- Le script doit générer 2500 phrases
+- il doit parser le fichier 'phrases_question.txt' de haut en bas, et une fois arrivé en bas du fichier, la 40 ème phrase, il recommence depuis le début et ainsi de suite jusqu'à produire 2500 phrases.
+
+A)  pour la classification : 
+
+- il doit génrer un fichier csv comme suit : 
+
+phrase,étiquette
+"Si je souhaitais voyager sans encombre de Toulouse à Bordeaux, quelle route me proposerais-tu?",valide
+
+Fichier de sortie dans : "../res/classifications"
+Le nom du fichier doit être : valid_conditionnal.csv
+Type de fichier CSV 
+
+B) Pour le NER : 
+
+Exactement comme tu as dis : 
+
+Pour le NER :
+Vous aurez besoin de marquer les entités spécifiques dans les phrases, comme les lieux de départ et d'arrivée. Cela pourrait être fait en utilisant la notation BIO (Begin, Inside, Outside), où "B" marque le début d'une entité, "I" toute continuation de cette entité, et "O" tout ce qui n'est pas une entité. Cependant, cette annotation nécessite souvent un format plus complexe que le CSV. Un format couramment utilisé dans le NER est le format CoNLL, où chaque mot et sa tag d'entité sont sur une nouvelle ligne, et les phrases sont séparées par une ligne vide.
+
+Voici un exemple de ce à quoi cela pourrait ressembler :
+
+css
+Copy code
+Comment O
+puis-je O
+me O
+rendre O
+de O
+Paris B-DEPART
+à O
+Toulouse B-ARRIVEE
+. O
+
+Fichier de sortie dans : "../res/ner"
+Le nom du fichier doit être : "valid_conditionnal"
+Type de fichier : celui qui est nécessaire pour ce type de fichier pour les NER
+
+Donne moi le script python pour faire ça 

@@ -1,0 +1,28 @@
+{
+  "name": "voice-to-text-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechMscProPromo2024/T-AIA-901-TLS_2.git"
+  },
+  "author": "Maverick Talys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechMscProPromo2024/T-AIA-901-TLS_2/issues"
+  },
+  "homepage": "https://github.com/EpitechMscProPromo2024/T-AIA-901-TLS_2#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^6.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "type": "module"
+}
